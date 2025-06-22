@@ -13,7 +13,7 @@ This project demonstrates the use of classic encryption algorithms implemented w
 | Pattern         | Description |
 |------------------|-------------|
 | **Strategy**     | Implemented via the `ICipherStrategy` interface, which all cipher classes (`PlayfairCipherStrategy`, `VigenereCipherStrategy`, `WinstonCipherStrategy`, `CaesarCipherStrategy`) implement. This allows flexible switching between encryption algorithms. |
-| **Factory Method** | The `CipherFactoryMethod` class dynamically creates cipher instances based on a provided string type (`"playfair"`, `"winston"`, `"vigenere"`, `"caesar"`), encapsulating object creation. |
+| **Factory Method** | The `CipherFactoryMethod` class dynamically creates cipher instances based on a provided string type (`"Playfair"`, `"Winston"`, `"Vigenere"`), encapsulating object creation. |
 | **Command**       | Commands are implemented through `ICipherCommand` and executed using the `CommandInvoker`. Each encryption/decryption task can be wrapped as a command for better task management and flexibility. |
 | **Singleton**     | The `ConsoleLogger` class ensures only one instance of the logger is used throughout the application using the Singleton pattern. |
 | **Decorator**     | The `DebugCipherDecorator` wraps any `ICipherStrategy` and adds logging functionality before and after encryption or decryption, without modifying the original logic. |
