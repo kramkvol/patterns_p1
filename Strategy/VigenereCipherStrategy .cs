@@ -64,7 +64,10 @@ namespace CiphersWithPatterns
             return result.ToString();
         }
 
-
+        public string CleanDecrypt(string decrypt)
+        {
+            return CipherTextPreprocessor.PostprocessDecrypted(decrypt);
+        }
     }
 
 }

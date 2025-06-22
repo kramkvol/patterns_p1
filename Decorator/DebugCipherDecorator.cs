@@ -1,70 +1,58 @@
-﻿using System;
+﻿using CiphersWithPatterns;
 using CiphersWithPatterns.Core;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace CiphersWithPatterns
+namespace ThePlayfairCipher.Decorator
 {
-    public static class CipherDebugger
+    public class DebugCipherDecorator : ICipherStrategy
     {
-        private static readonly ILogger logger = ConsoleLogger.Instance;
+        private readonly ICipherStrategy _inner;
+        private readonly ILogger _logger = ConsoleLogger.Instance;
 
-        public static void Print(ICipherStrategy strategy)
+        public DebugCipherDecorator(ICipherStrategy inner)
         {
-            PrintInformation(strategy);
-            if (strategy.bigrams!= null)
-            {
-                PrintBigrams(strategy);
-            }
-            if (strategy.table1 != null && strategy.key1 != null)
-            {
-                PrintTable(strategy.table1, strategy.key1);
-            }
-            if (strategy.table2 != null && strategy.key2 != null)
-            {
-                PrintTable(strategy.table2, strategy.key2);
-            }
+            _inner = inner;
         }
 
-        private static void PrintInformation(ICipherStrategy strategy)
+        public string Encrypt()
         {
-            logger.LogCharpter("Cipher Debug Info:");
-            if (!string.IsNullOrWhiteSpace(strategy.abc))
-                logger.LogDebug($"Alphabet      : {strategy.abc}");
-            if (strategy.rows > 0 && strategy.cols > 0)
-                logger.LogDebug($"Table size    : {strategy.rows} x {strategy.cols}");
-            if (!string.IsNullOrWhiteSpace(strategy.message))
-                logger.LogDebug($"Original Msg  : {strategy.message}");
-            if (!string.IsNullOrWhiteSpace(strategy.key1))
-                logger.LogDebug($"Key 1         : {strategy.key1}");
-            if (!string.IsNullOrWhiteSpace(strategy.key2))
-                logger.LogDebug($"Key 2         : {strategy.key2}");
-            if (!string.IsNullOrWhiteSpace(strategy.cleanKey1))
-                logger.LogDebug($"Cleankey1     : {strategy.cleanKey1}");
-            if (!string.IsNullOrWhiteSpace(strategy.cleanKey2))
-                logger.LogDebug($"Cleankey2     : {strategy.cleanKey2}");
+            _logger.LogInfo("Starting encryption...");
+            var result = _inner.Encrypt();
+            _logger.LogResult($"Encrypted: {result}");
+            return result;
         }
 
-        private static void PrintBigrams(ICipherStrategy strategy)
+        public string Decrypt(string encrypted)
         {
-            logger.LogCharpter("Bigrams:");
-            for (int i = 0, count = 0; i < strategy.bigrams.Length - 1; i += 2)
-            {
-                Console.Write($"{strategy.bigrams[i]} {strategy.bigrams[i + 1]} | ");
-                if (++count % 8 == 0) Console.WriteLine();
-            }
-            Console.WriteLine();
+            _logger.LogInfo("Starting decryption...");
+            var result = _inner.Decrypt(encrypted);
+            _logger.LogResult($"Decrypted: {result}");
+            return result;
         }
 
-        private static void PrintTable(char[,] table, string key)
+        public string CleanDecrypt(string decrypted)
         {
-            logger.LogCharpter($"Table for key '{key}':");
-            for (int r = 0; r < table.GetLength(0); r++)
-            {
-                for (int c = 0; c < table.GetLength(1); c++)
-                {
-                    Console.Write(table[r, c] + " ");
-                }
-                Console.WriteLine("");
-            }
+            _logger.LogInfo("Starting clean decryption...");
+            var result = _inner.CleanDecrypt(decrypted);
+            _logger.LogResult($"Clean Decrypted: {result}");
+            return result;
         }
+
+        public string abc => _inner.abc;
+        public int rows => _inner.rows;
+        public int cols => _inner.cols;
+        public string message => _inner.message;
+        public string key1 => _inner.key1;
+        public string key2 => _inner.key2;
+        public string cleanKey1 => _inner.cleanKey1;
+        public string cleanKey2 => _inner.cleanKey2;
+        public char[,] table1 => _inner.table1;
+        public char[,] table2 => _inner.table2;
+        public string bigrams => _inner.bigrams;
     }
+
 }

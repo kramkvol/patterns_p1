@@ -56,6 +56,11 @@ public class WinstonCipherStrategy : ICipherStrategy, ICipherMetadata
         return restored.ToString();
     }
 
+    public string CleanDecrypt(string decrypt)
+    {
+        return CipherTextPreprocessor.PostprocessDecrypted(decrypt);
+    }
+
     private (int row, int col) FindPosition(char[,] table, char c)
     {
         for (int r = 0; r < table.GetLength(0); r++)

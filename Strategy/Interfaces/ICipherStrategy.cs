@@ -18,6 +18,7 @@
         string bigrams { get; }
 
         string Encrypt();
-        string Decrypt(string encryptMessage);
+        string Decrypt(string encrypt);
+        string CleanDecrypt(string decrypt);
     }
 }

@@ -19,9 +19,14 @@
             return strategy.Encrypt();
         }
 
-        public string Decrypt(string encryptMessage)
+        public string Decrypt(string encrypt)
         {
-            return strategy.Decrypt(encryptMessage);
+            return strategy.Decrypt(encrypt);
+        }
+
+        public string CleanDecrypt(string decrypt)
+        {
+            return strategy.CleanDecrypt(decrypt);
         }
 
         public ICipherStrategy Strategy => strategy;

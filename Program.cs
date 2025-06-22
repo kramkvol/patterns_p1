@@ -19,7 +19,6 @@ namespace CiphersWithPatterns
             invoker.AddCommand(new RunCipherCommand("Vigenere", abc, 0, 0, message, "key", null, logger));
 
             invoker.RunAll();
-            Console.ReadKey();
         }
     }
 }

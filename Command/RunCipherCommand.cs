@@ -1,6 +1,7 @@
-﻿using System;
-using CiphersWithPatterns.Core;
+﻿using CiphersWithPatterns.Core;
 using CiphersWithPatterns.Factory.ThePlayfairCipher.Core;
+using System;
+using ThePlayfairCipher.Decorator;
 
 namespace CiphersWithPatterns.Commands
 {
@@ -33,19 +34,16 @@ namespace CiphersWithPatterns.Commands
             {
                 logger.LogInfo($"Running {type} cipher...");
 
-                var cipher = CipherFactoryMethod.Create(type, abc, rows, cols, message, key1, key2);
+                var baseCipher = CipherFactoryMethod.Create(type, abc, rows, cols, message, key1, key2);
+           
+                var cipher = new DebugCipherDecorator(baseCipher); 
                 CipherDebugger.Print(cipher);
 
                 var context = new CipherContext(cipher);
                 string encrypted = context.Encrypt();
-                logger.LogResult($"Encrypted: {encrypted}");
-
                 string decrypted = context.Decrypt(encrypted);
-                logger.LogResult($"Decrypted: {decrypted}");
+                string cleaned = context.CleanDecrypt(decrypted);
 
-                string cleaned = CipherTextPreprocessor.PostprocessDecrypted(decrypted);
-                logger.LogResult($"Cleaned Decrypted: {cleaned}");
-                
                 logger.LogSuccess($"{type} cipher completed successfully.\n");
             }
             catch (Exception ex)

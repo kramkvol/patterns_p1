@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Command\RunCipherCommand.cs" />
+    <Compile Include="Decorator\DebugCipherDecorator.cs" />
     <Compile Include="Strategy\Context\CipherContext.cs" />
     <Compile Include="Command\CommandInvoker.cs" />
     <Compile Include="FactoryMethod\CipherFactoryMethod.cs" />
@@ -53,7 +54,7 @@
     <Compile Include="Singletone\ILogger.cs" />
     <Compile Include="Strategy\Utils\CipherTableBuilder.cs" />
     <Compile Include="Strategy\Utils\CipherTextPreprocessor.cs" />
-    <Compile Include="Decorator\DebugCipherDecorator.cs" />
+    <Compile Include="Strategy\Utils\DebugCipher.cs" />
     <Compile Include="Strategy\Interfaces\ICipherStrategy.cs" />
     <Compile Include="Strategy\PlayfairCipherStrategy.cs" />
     <Compile Include="Program.cs" />

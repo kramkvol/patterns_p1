@@ -38,7 +38,7 @@ namespace CiphersWithPatterns
             while (i < result.Length)
             {
                 char first = result[i];
-                char second = (i + 1 < result.Length) ? result[i + 1] : abc[abc.Length-1];
+                char second = (i + 1 < result.Length) ? result[i + 1] : abc[abc.Length - 1];
 
                 if (first == second)
                 {

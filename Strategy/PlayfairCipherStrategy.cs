@@ -43,14 +43,19 @@ namespace CiphersWithPatterns
             return encrypted.ToString();
         }
 
-        public string Decrypt(string cipherText)
+        public string Decrypt(string encrypt)
         {
             StringBuilder restored = new StringBuilder();
 
-            for (int i = 0; i < cipherText.Length; i += 2)
-                restored.Append(DecryptBigram(cipherText[i], cipherText[i + 1]));
+            for (int i = 0; i < encrypt.Length; i += 2)
+                restored.Append(DecryptBigram(encrypt[i], encrypt[i + 1]));
 
             return restored.ToString();
+        }
+
+        public string CleanDecrypt(string decrypt)
+        {
+            return CipherTextPreprocessor.PostprocessDecrypted(decrypt);
         }
 
         private (int row, int col) FindPosition(char c)
