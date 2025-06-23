@@ -1,16 +1,14 @@
 ﻿using System;
-using CiphersWithPatterns.Core;
-
 namespace CiphersWithPatterns
 {
-    public static class CipherDebugger
+    public class DebugCipherConsole
     {
         private static readonly ILogger logger = ConsoleLogger.Instance;
 
         public static void Print(ICipherStrategy strategy)
         {
             PrintInformation(strategy);
-            if (strategy.bigrams!= null)
+            if (strategy.bigrams != null)
             {
                 PrintBigrams(strategy);
             }
@@ -68,3 +66,4 @@ namespace CiphersWithPatterns
         }
     }
 }
+

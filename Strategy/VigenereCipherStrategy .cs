@@ -1,6 +1,5 @@
 ﻿using System.Linq;
 using System.Text;
-using CiphersWithPatterns.Core;
 
 namespace CiphersWithPatterns
 {

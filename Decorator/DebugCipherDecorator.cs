@@ -1,12 +1,5 @@
 ﻿using CiphersWithPatterns;
-using CiphersWithPatterns.Core;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ThePlayfairCipher.Decorator
+namespace ThePlayfairCipher
 {
     public class DebugCipherDecorator : ICipherStrategy
     {

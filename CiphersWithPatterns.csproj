@@ -35,6 +35,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,6 +45,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bridge\Abstractions\CipherUI.cs" />
+    <Compile Include="Bridge\Abstractions\ICipherUI.cs" />
+    <Compile Include="Bridge\CipherApplication.cs" />
+    <Compile Include="Bridge\Implementations\ConsoleUIImpl.cs" />
+    <Compile Include="Bridge\Implementations\WinFormsUIImpl.cs" />
     <Compile Include="Command\RunCipherCommand.cs" />
     <Compile Include="Decorator\DebugCipherDecorator.cs" />
     <Compile Include="Strategy\Context\CipherContext.cs" />
@@ -54,16 +61,30 @@
     <Compile Include="Singletone\ILogger.cs" />
     <Compile Include="Strategy\Utils\CipherTableBuilder.cs" />
     <Compile Include="Strategy\Utils\CipherTextPreprocessor.cs" />
-    <Compile Include="Strategy\Utils\DebugCipher.cs" />
+    <Compile Include="Strategy\Utils\DebugCipherConsole.cs" />
+    <Compile Include="Strategy\Utils\DebugCipherForm.cs" />
     <Compile Include="Strategy\Interfaces\ICipherStrategy.cs" />
     <Compile Include="Strategy\PlayfairCipherStrategy.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Strategy\VigenereCipherStrategy .cs" />
     <Compile Include="Strategy\WinstonCipherStrategy .cs" />
+    <Compile Include="UI\CipherController.cs" />
+    <Compile Include="UI\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UILogger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UI\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

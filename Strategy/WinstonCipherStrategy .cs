@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Text;
 using CiphersWithPatterns;
-using CiphersWithPatterns.Core;
 
 public class WinstonCipherStrategy : ICipherStrategy, ICipherMetadata
 {

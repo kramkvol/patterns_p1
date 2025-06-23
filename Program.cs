@@ -1,24 +1,39 @@
 ﻿using System;
-using CiphersWithPatterns.Commands;
-using CiphersWithPatterns.Core;
+using System.Windows.Forms;
+using ThePlayfairCipher.Bridge;
+using ThePlayfairCipher.Bridge.Abstractions;
+using ThePlayfairCipher.Bridge.Implementations;
 
 namespace CiphersWithPatterns
 {
-    class Program
+    static class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            string abc = "abcdefghijklmnopqrstuvwxyz";
-            int rows = 5, cols = 5;
-            string message = "hello world!";
-            var logger = ConsoleLogger.Instance;
+            ICipherUIImpl ui = null;
 
-            var invoker = new CommandInvoker();
-            invoker.AddCommand(new RunCipherCommand("Playfair", abc, rows, cols, message, "strong", null, logger));
-            invoker.AddCommand(new RunCipherCommand("Winston", abc, rows, cols, message, "strong", "cipher", logger));
-            invoker.AddCommand(new RunCipherCommand("Vigenere", abc, 0, 0, message, "key", null, logger));
+            Console.WriteLine("Enter number: ");
+            Console.WriteLine("1. Console");
+            Console.WriteLine("2. WinForms");
 
-            invoker.RunAll();
+            string switchNumber = Console.ReadLine();
+
+            switch (switchNumber)
+            {
+                case "1":
+                    ui = new ConsoleUIImpl();
+                    break;
+                case "2":
+                    ui = new WinFormsUIImpl();
+                    break;
+                default:
+                    Console.WriteLine("Number does not exist");
+                    return; 
+            }
+
+            var app = new CipherApplication(ui);
+            app.Start();
         }
     }
+
 }

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CiphersWithPatterns.Core
+namespace CiphersWithPatterns
 {
     public class ConsoleLogger : ILogger
     {

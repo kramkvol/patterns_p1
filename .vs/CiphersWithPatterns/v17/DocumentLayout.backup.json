@@ -3,80 +3,120 @@
   "WorkspaceRootPath": "E:\\!GitHub\\C#\\CiphersWithPatterns\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|E:\\!GitHub\\C#\\CiphersWithPatterns\\command\\runciphercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|e:\\!github\\c#\\cipherswithpatterns\\command\\runciphercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:command\\runciphercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|E:\\!GitHub\\C#\\CiphersWithPatterns\\decorator\\debugcipherdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|e:\\!github\\c#\\cipherswithpatterns\\decorator\\debugcipherdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:decorator\\debugcipherdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|E:\\!GitHub\\C#\\CiphersWithPatterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|E:\\!GitHub\\C#\\CiphersWithPatterns\\command\\commandinvoker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:command\\commandinvoker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|E:\\!GitHub\\C#\\CiphersWithPatterns\\command\\iciphercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:command\\iciphercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|E:\\!GitHub\\C#\\CiphersWithPatterns\\strategy\\context\\ciphercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:strategy\\context\\ciphercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|E:\\!GitHub\\C#\\CiphersWithPatterns\\singletone\\consolelogger .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:singletone\\consolelogger .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|e:\\!github\\c#\\cipherswithpatterns\\strategy\\utils\\debugcipherconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:strategy\\utils\\debugcipherconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|e:\\!github\\c#\\cipherswithpatterns\\strategy\\utils\\ciphertextpreprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:strategy\\utils\\ciphertextpreprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|E:\\!GitHub\\C#\\CiphersWithPatterns\\strategy\\winstoncipherstrategy .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:strategy\\winstoncipherstrategy .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|e:\\!github\\c#\\cipherswithpatterns\\strategy\\context\\ciphercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:strategy\\context\\ciphercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|E:\\!GitHub\\C#\\CiphersWithPatterns\\factorymethod\\cipherfactorymethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:factorymethod\\cipherfactorymethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|E:\\!GitHub\\C#\\CiphersWithPatterns\\strategy\\playfaircipherstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:strategy\\playfaircipherstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|E:\\!GitHub\\C#\\CiphersWithPatterns\\strategy\\vigenerecipherstrategy .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:strategy\\vigenerecipherstrategy .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|E:\\!GitHub\\C#\\CiphersWithPatterns\\strategy\\utils\\debugcipher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:strategy\\utils\\debugcipher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|E:\\!GitHub\\C#\\CiphersWithPatterns\\strategy\\utils\\ciphertablebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:strategy\\utils\\ciphertablebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|E:\\!GitHub\\C#\\CiphersWithPatterns\\strategy\\interfaces\\icipherstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:strategy\\interfaces\\icipherstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|E:\\!GitHub\\C#\\CiphersWithPatterns\\singletone\\ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:singletone\\ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|E:\\!GitHub\\C#\\CiphersWithPatterns\\strategy\\interfaces\\iciphermetadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|e:\\!github\\c#\\cipherswithpatterns\\strategy\\interfaces\\iciphermetadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:strategy\\interfaces\\iciphermetadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|ThePlayfairCipher.csproj|E:\\!GitHub\\C#\\CiphersWithPatterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|ThePlayfairCipher.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|e:\\!github\\c#\\cipherswithpatterns\\strategy\\interfaces\\icipherstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:strategy\\interfaces\\icipherstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|E:\\!GitHub\\C#\\CiphersWithPatterns\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|e:\\!github\\c#\\cipherswithpatterns\\strategy\\utils\\ciphertablebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:strategy\\utils\\ciphertablebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|e:\\!github\\c#\\cipherswithpatterns\\strategy\\vigenerecipherstrategy .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:strategy\\vigenerecipherstrategy .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|e:\\!github\\c#\\cipherswithpatterns\\strategy\\winstoncipherstrategy .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:strategy\\winstoncipherstrategy .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|e:\\!github\\c#\\cipherswithpatterns\\strategy\\playfaircipherstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:strategy\\playfaircipherstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|e:\\!github\\c#\\cipherswithpatterns\\strategy\\utils\\debugcipherform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:strategy\\utils\\debugcipherform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|e:\\!github\\c#\\cipherswithpatterns\\bridge\\implementations\\consoleuiimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:bridge\\implementations\\consoleuiimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|e:\\!github\\c#\\cipherswithpatterns\\bridge\\implementations\\winformsuiimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:bridge\\implementations\\winformsuiimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|e:\\!github\\c#\\cipherswithpatterns\\bridge\\abstractions\\cipherui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:bridge\\abstractions\\cipherui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|e:\\!github\\c#\\cipherswithpatterns\\bridge\\abstractions\\icipherui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:bridge\\abstractions\\icipherui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|e:\\!github\\c#\\cipherswithpatterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|e:\\!github\\c#\\cipherswithpatterns\\command\\commandinvoker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:command\\commandinvoker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|e:\\!github\\c#\\cipherswithpatterns\\bridge\\cipherapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:bridge\\cipherapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|e:\\!github\\c#\\cipherswithpatterns\\ui\\ciphercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:ui\\ciphercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|e:\\!github\\c#\\cipherswithpatterns\\command\\iciphercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:command\\iciphercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|e:\\!github\\c#\\cipherswithpatterns\\factorymethod\\cipherfactorymethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:factorymethod\\cipherfactorymethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|e:\\!github\\c#\\cipherswithpatterns\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|e:\\!github\\c#\\cipherswithpatterns\\ui\\uilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:ui\\uilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|e:\\!github\\c#\\cipherswithpatterns\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|e:\\!github\\c#\\cipherswithpatterns\\ui\\mainform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:ui\\mainform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|e:\\!github\\c#\\cipherswithpatterns\\ui\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:ui\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|e:\\!github\\c#\\cipherswithpatterns\\singletone\\ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:singletone\\ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|e:\\!github\\c#\\cipherswithpatterns\\singletone\\consolelogger .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D578EB-92DC-4387-B0BF-1E18AF2151FE}|CiphersWithPatterns.csproj|solutionrelative:singletone\\consolelogger .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,19 +126,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "ICipherMetadata.cs",
+              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\Interfaces\\ICipherMetadata.cs",
+              "RelativeDocumentMoniker": "Strategy\\Interfaces\\ICipherMetadata.cs",
+              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\Interfaces\\ICipherMetadata.cs",
+              "RelativeToolTip": "Strategy\\Interfaces\\ICipherMetadata.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T01:44:04.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CipherContext.cs",
               "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\Context\\CipherContext.cs",
               "RelativeDocumentMoniker": "Strategy\\Context\\CipherContext.cs",
               "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\Context\\CipherContext.cs",
               "RelativeToolTip": "Strategy\\Context\\CipherContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T20:15:21.82Z",
+              "WhenOpened": "2025-06-23T01:33:02.794Z",
               "EditorCaption": ""
             },
             {
@@ -109,35 +162,9 @@
               "RelativeDocumentMoniker": "Decorator\\DebugCipherDecorator.cs",
               "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Decorator\\DebugCipherDecorator.cs",
               "RelativeToolTip": "Decorator\\DebugCipherDecorator.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T21:35:47.046Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ConsoleLogger .cs",
-              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Singletone\\ConsoleLogger .cs",
-              "RelativeDocumentMoniker": "Singletone\\ConsoleLogger .cs",
-              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Singletone\\ConsoleLogger .cs",
-              "RelativeToolTip": "Singletone\\ConsoleLogger .cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAwwA0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T20:15:15.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T20:17:31.742Z",
+              "WhenOpened": "2025-06-23T00:35:19.416Z",
               "EditorCaption": ""
             },
             {
@@ -146,37 +173,89 @@
               "Title": "RunCipherCommand.cs",
               "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Command\\RunCipherCommand.cs",
               "RelativeDocumentMoniker": "Command\\RunCipherCommand.cs",
-              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Command\\RunCipherCommand.cs",
-              "RelativeToolTip": "Command\\RunCipherCommand.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAADQAAAAJAAAAAAAAAA==",
+              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Command\\RunCipherCommand.cs*",
+              "RelativeToolTip": "Command\\RunCipherCommand.cs*",
+              "ViewState": "AgIAABIAAAAAAAAAAAAswCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T20:14:55.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ICipherCommand.cs",
-              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Command\\ICipherCommand.cs",
-              "RelativeDocumentMoniker": "Command\\ICipherCommand.cs",
-              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Command\\ICipherCommand.cs",
-              "RelativeToolTip": "Command\\ICipherCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T20:14:53.256Z",
+              "WhenOpened": "2025-06-23T00:34:49.651Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CommandInvoker.cs",
-              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Command\\CommandInvoker.cs",
-              "RelativeDocumentMoniker": "Command\\CommandInvoker.cs",
-              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Command\\CommandInvoker.cs",
-              "RelativeToolTip": "Command\\CommandInvoker.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBEAAAAQAAAAAAAAAA==",
+              "Title": "CipherTextPreprocessor.cs",
+              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\Utils\\CipherTextPreprocessor.cs",
+              "RelativeDocumentMoniker": "Strategy\\Utils\\CipherTextPreprocessor.cs",
+              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\Utils\\CipherTextPreprocessor.cs",
+              "RelativeToolTip": "Strategy\\Utils\\CipherTextPreprocessor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T20:13:33.629Z",
+              "WhenOpened": "2025-06-23T02:05:41.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DebugCipherConsole.cs",
+              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\Utils\\DebugCipherConsole.cs",
+              "RelativeDocumentMoniker": "Strategy\\Utils\\DebugCipherConsole.cs",
+              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\Utils\\DebugCipherConsole.cs",
+              "RelativeToolTip": "Strategy\\Utils\\DebugCipherConsole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T03:47:14.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICipherStrategy.cs",
+              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\Interfaces\\ICipherStrategy.cs",
+              "RelativeDocumentMoniker": "Strategy\\Interfaces\\ICipherStrategy.cs",
+              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\Interfaces\\ICipherStrategy.cs",
+              "RelativeToolTip": "Strategy\\Interfaces\\ICipherStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T01:15:45.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CipherTableBuilder.cs",
+              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\Utils\\CipherTableBuilder.cs",
+              "RelativeDocumentMoniker": "Strategy\\Utils\\CipherTableBuilder.cs",
+              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\Utils\\CipherTableBuilder.cs",
+              "RelativeToolTip": "Strategy\\Utils\\CipherTableBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T02:00:09.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VigenereCipherStrategy .cs",
+              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\VigenereCipherStrategy .cs",
+              "RelativeDocumentMoniker": "Strategy\\VigenereCipherStrategy .cs",
+              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\VigenereCipherStrategy .cs",
+              "RelativeToolTip": "Strategy\\VigenereCipherStrategy .cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T00:10:54.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WinstonCipherStrategy .cs",
+              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\WinstonCipherStrategy .cs",
+              "RelativeDocumentMoniker": "Strategy\\WinstonCipherStrategy .cs",
+              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\WinstonCipherStrategy .cs",
+              "RelativeToolTip": "Strategy\\WinstonCipherStrategy .cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T00:10:44.944Z",
               "EditorCaption": ""
             },
             {
@@ -187,146 +266,242 @@
               "RelativeDocumentMoniker": "Strategy\\PlayfairCipherStrategy.cs",
               "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\PlayfairCipherStrategy.cs",
               "RelativeToolTip": "Strategy\\PlayfairCipherStrategy.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwDUAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T20:15:38.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CipherTextPreprocessor.cs",
-              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\Utils\\CipherTextPreprocessor.cs",
-              "RelativeDocumentMoniker": "Strategy\\Utils\\CipherTextPreprocessor.cs",
-              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\Utils\\CipherTextPreprocessor.cs",
-              "RelativeToolTip": "Strategy\\Utils\\CipherTextPreprocessor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T20:15:32.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WinstonCipherStrategy .cs",
-              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\WinstonCipherStrategy .cs",
-              "RelativeDocumentMoniker": "Strategy\\WinstonCipherStrategy .cs",
-              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\WinstonCipherStrategy .cs",
-              "RelativeToolTip": "Strategy\\WinstonCipherStrategy .cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAwwB0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T20:15:43.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CipherFactoryMethod.cs",
-              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\FactoryMethod\\CipherFactoryMethod.cs",
-              "RelativeDocumentMoniker": "FactoryMethod\\CipherFactoryMethod.cs",
-              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\FactoryMethod\\CipherFactoryMethod.cs",
-              "RelativeToolTip": "FactoryMethod\\CipherFactoryMethod.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAwwBoAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T20:15:12.138Z",
+              "WhenOpened": "2025-06-23T02:00:04.579Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "VigenereCipherStrategy .cs",
-              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\VigenereCipherStrategy .cs",
-              "RelativeDocumentMoniker": "Strategy\\VigenereCipherStrategy .cs",
-              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\VigenereCipherStrategy .cs",
-              "RelativeToolTip": "Strategy\\VigenereCipherStrategy .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Title": "DebugCipherForm.cs",
+              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\Utils\\DebugCipherForm.cs",
+              "RelativeDocumentMoniker": "Strategy\\Utils\\DebugCipherForm.cs",
+              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\Utils\\DebugCipherForm.cs",
+              "RelativeToolTip": "Strategy\\Utils\\DebugCipherForm.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T20:15:41.04Z",
+              "WhenOpened": "2025-06-23T01:17:11.179Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "DebugCipher.cs",
-              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\Utils\\DebugCipher.cs",
-              "RelativeDocumentMoniker": "Strategy\\Utils\\DebugCipher.cs",
-              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\Utils\\DebugCipher.cs",
-              "RelativeToolTip": "Strategy\\Utils\\DebugCipher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA7AAAAAAAAAA==",
+              "Title": "ConsoleUIImpl.cs",
+              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Bridge\\Implementations\\ConsoleUIImpl.cs",
+              "RelativeDocumentMoniker": "Bridge\\Implementations\\ConsoleUIImpl.cs",
+              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Bridge\\Implementations\\ConsoleUIImpl.cs",
+              "RelativeToolTip": "Bridge\\Implementations\\ConsoleUIImpl.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T20:13:59.5Z"
+              "WhenOpened": "2025-06-23T04:02:17.79Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "CipherTableBuilder.cs",
-              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\Utils\\CipherTableBuilder.cs",
-              "RelativeDocumentMoniker": "Strategy\\Utils\\CipherTableBuilder.cs",
-              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\Utils\\CipherTableBuilder.cs",
-              "RelativeToolTip": "Strategy\\Utils\\CipherTableBuilder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "WinFormsUIImpl.cs",
+              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Bridge\\Implementations\\WinFormsUIImpl.cs",
+              "RelativeDocumentMoniker": "Bridge\\Implementations\\WinFormsUIImpl.cs",
+              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Bridge\\Implementations\\WinFormsUIImpl.cs",
+              "RelativeToolTip": "Bridge\\Implementations\\WinFormsUIImpl.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwBsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T20:15:31.199Z"
+              "WhenOpened": "2025-06-23T04:02:31.849Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "ICipherStrategy.cs",
-              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\Interfaces\\ICipherStrategy.cs",
-              "RelativeDocumentMoniker": "Strategy\\Interfaces\\ICipherStrategy.cs",
-              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\Interfaces\\ICipherStrategy.cs",
-              "RelativeToolTip": "Strategy\\Interfaces\\ICipherStrategy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAZAAAAAAAAAA==",
+              "Title": "CipherUI.cs",
+              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Bridge\\Abstractions\\CipherUI.cs",
+              "RelativeDocumentMoniker": "Bridge\\Abstractions\\CipherUI.cs",
+              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Bridge\\Abstractions\\CipherUI.cs",
+              "RelativeToolTip": "Bridge\\Abstractions\\CipherUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T20:15:26.922Z"
+              "WhenOpened": "2025-06-23T04:01:25.517Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "ILogger.cs",
-              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Singletone\\ILogger.cs",
-              "RelativeDocumentMoniker": "Singletone\\ILogger.cs",
-              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Singletone\\ILogger.cs",
-              "RelativeToolTip": "Singletone\\ILogger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ICipherUI.cs",
+              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Bridge\\Abstractions\\ICipherUI.cs",
+              "RelativeDocumentMoniker": "Bridge\\Abstractions\\ICipherUI.cs",
+              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Bridge\\Abstractions\\ICipherUI.cs",
+              "RelativeToolTip": "Bridge\\Abstractions\\ICipherUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T20:15:17.663Z"
+              "WhenOpened": "2025-06-23T04:00:39.318Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "ICipherMetadata.cs",
-              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\Interfaces\\ICipherMetadata.cs",
-              "RelativeDocumentMoniker": "Strategy\\Interfaces\\ICipherMetadata.cs",
-              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Strategy\\Interfaces\\ICipherMetadata.cs",
-              "RelativeToolTip": "Strategy\\Interfaces\\ICipherMetadata.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T20:15:25.283Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwBoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T20:12:11.549Z"
+              "WhenOpened": "2025-06-23T00:38:47.816Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "App.config",
-              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\App.config",
-              "RelativeDocumentMoniker": "App.config",
-              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\App.config",
-              "RelativeToolTip": "App.config",
+              "Title": "CipherApplication.cs",
+              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Bridge\\CipherApplication.cs",
+              "RelativeDocumentMoniker": "Bridge\\CipherApplication.cs",
+              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Bridge\\CipherApplication.cs",
+              "RelativeToolTip": "Bridge\\CipherApplication.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T04:12:22.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CipherController.cs",
+              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\UI\\CipherController.cs",
+              "RelativeDocumentMoniker": "UI\\CipherController.cs",
+              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\UI\\CipherController.cs",
+              "RelativeToolTip": "UI\\CipherController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T00:10:20.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ICipherCommand.cs",
+              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Command\\ICipherCommand.cs",
+              "RelativeDocumentMoniker": "Command\\ICipherCommand.cs",
+              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Command\\ICipherCommand.cs",
+              "RelativeToolTip": "Command\\ICipherCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T00:35:38.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CommandInvoker.cs",
+              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Command\\CommandInvoker.cs",
+              "RelativeDocumentMoniker": "Command\\CommandInvoker.cs",
+              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Command\\CommandInvoker.cs",
+              "RelativeToolTip": "Command\\CommandInvoker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T00:35:43.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CipherFactoryMethod.cs",
+              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\FactoryMethod\\CipherFactoryMethod.cs",
+              "RelativeDocumentMoniker": "FactoryMethod\\CipherFactoryMethod.cs",
+              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\FactoryMethod\\CipherFactoryMethod.cs",
+              "RelativeToolTip": "FactoryMethod\\CipherFactoryMethod.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T00:34:47.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\UI\\MainForm.cs",
+              "RelativeDocumentMoniker": "UI\\MainForm.cs",
+              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\UI\\MainForm.cs",
+              "RelativeToolTip": "UI\\MainForm.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T00:23:18.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UILogger.cs",
+              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\UI\\UILogger.cs",
+              "RelativeDocumentMoniker": "UI\\UILogger.cs",
+              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\UI\\UILogger.cs",
+              "RelativeToolTip": "UI\\UILogger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-06-22T20:13:24.655Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T00:58:29.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\UI\\MainForm.cs",
+              "RelativeDocumentMoniker": "UI\\MainForm.cs",
+              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\UI\\MainForm.cs [Design]",
+              "RelativeToolTip": "UI\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T00:32:54.598Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MainForm.resx",
+              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\UI\\MainForm.resx",
+              "RelativeDocumentMoniker": "UI\\MainForm.resx",
+              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\UI\\MainForm.resx",
+              "RelativeToolTip": "UI\\MainForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-06-23T01:55:14.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\UI\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "UI\\MainForm.Designer.cs",
+              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\UI\\MainForm.Designer.cs",
+              "RelativeToolTip": "UI\\MainForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T00:26:47.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ILogger.cs",
+              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Singletone\\ILogger.cs",
+              "RelativeDocumentMoniker": "Singletone\\ILogger.cs",
+              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Singletone\\ILogger.cs",
+              "RelativeToolTip": "Singletone\\ILogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T00:35:31.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ConsoleLogger .cs",
+              "DocumentMoniker": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Singletone\\ConsoleLogger .cs",
+              "RelativeDocumentMoniker": "Singletone\\ConsoleLogger .cs",
+              "ToolTip": "E:\\!GitHub\\C#\\CiphersWithPatterns\\Singletone\\ConsoleLogger .cs",
+              "RelativeToolTip": "Singletone\\ConsoleLogger .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T00:35:30.312Z",
+              "EditorCaption": ""
             }
           ]
         }

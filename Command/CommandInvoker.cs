@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace CiphersWithPatterns.Core
+namespace CiphersWithPatterns
 {
     public class CommandInvoker
     {

@@ -14,3 +14,5 @@ E:\!GitHub\C#\CiphersWithPatterns\obj\Debug\ThePlayfairCipher.exe.config
 E:\!GitHub\C#\CiphersWithPatterns\obj\Debug\CiphersWithPatterns.csproj.CoreCompileInputs.cache
 E:\!GitHub\C#\CiphersWithPatterns\obj\Debug\ThePlayfairCipher.exe
 E:\!GitHub\C#\CiphersWithPatterns\obj\Debug\ThePlayfairCipher.pdb
+E:\!GitHub\C#\CiphersWithPatterns\obj\Debug\CiphersWithPatterns.csproj.GenerateResource.cache
+E:\!GitHub\C#\CiphersWithPatterns\obj\Debug\CiphersWithPatterns.MainForm.resources
