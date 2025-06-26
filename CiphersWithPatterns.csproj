@@ -45,16 +45,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Decorator\DebugCipherDecorator.cs" />
+    <Compile Include="Command\CommandInvoker.cs" />
+    <Compile Include="Command\commands\CreateCipherCommand.cs" />
+    <Compile Include="Command\commands\DecryptResultCommand.cs" />
+    <Compile Include="Command\commands\EncryptResultCommand.cs" />
+    <Compile Include="Command\commands\LogCipherCommand.cs" />
+    <Compile Include="Command\commands\RunAllCipherCommand.cs" />
+    <Compile Include="Command\ICipherCommand.cs" />
+    <Compile Include="Decorator\LoggingCipherDecorator.cs" />
     <Compile Include="Singletone\UILogger.cs" />
-    <Compile Include="Strategy\Context\CipherContext.cs" />
+    <Compile Include="Core\CipherContext.cs" />
     <Compile Include="FactoryMethod\CipherFactoryMethod.cs" />
     <Compile Include="Singletone\ConsoleLogger .cs" />
     <Compile Include="Singletone\ILogger.cs" />
-    <Compile Include="Strategy\Core\CipherTableBuilder.cs" />
-    <Compile Include="Strategy\Core\CipherTextPreprocessor.cs" />
-    <Compile Include="Strategy\Debug\DebugCipherConsole.cs" />
-    <Compile Include="Strategy\Debug\DebugCipherForm.cs" />
+    <Compile Include="Core\CipherTableBuilder.cs" />
+    <Compile Include="Core\CipherTextPreprocessor.cs" />
     <Compile Include="Strategy\Interfaces\ICipherStrategy.cs" />
     <Compile Include="Strategy\PlayfairCipherStrategy.cs" />
     <Compile Include="Program.cs" />

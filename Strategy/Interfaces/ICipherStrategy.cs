@@ -2,6 +2,7 @@
 {
     public interface ICipherStrategy
     {
+        string type { get; }
         string abc { get; }
         int rows { get; }
         int cols { get; }

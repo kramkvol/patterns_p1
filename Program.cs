@@ -51,6 +51,7 @@ namespace CiphersWithPatterns
             {
                 string abc = "abcdefghijklmnopqrstuvwxyz";
                 int rows = 5, cols = 5;
+
                 logger.LogInfo($"Running {type} cipher...");
                 var baseCipher = CipherFactoryMethod.Create(
                     type, 
@@ -61,8 +62,8 @@ namespace CiphersWithPatterns
                     readParameter("key", type),
                     readParameter("second key", type)
                 );
-                var cipher = new DebugCipherDecorator(baseCipher);
-                DebugCipherConsole.Print(cipher);
+                var cipher = new LoggingCipherDecorator(baseCipher);
+                LoggingCipherDecorator decorator = new LoggingCipherDecorator(cipher);
 
                 var context = new CipherContext(cipher);
                 string encrypted = context.Encrypt();

@@ -84,11 +84,11 @@ namespace CiphersWithPatterns
             // txtLog
             // 
             this.txtLog.AccessibleName = "txtLog";
-            this.txtLog.Location = new System.Drawing.Point(433, 385);
+            this.txtLog.Location = new System.Drawing.Point(433, 202);
             this.txtLog.Multiline = true;
             this.txtLog.Name = "txtLog";
             this.txtLog.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtLog.Size = new System.Drawing.Size(398, 120);
+            this.txtLog.Size = new System.Drawing.Size(398, 303);
             this.txtLog.TabIndex = 7;
             // 
             // labelMessage
@@ -138,14 +138,14 @@ namespace CiphersWithPatterns
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox1.Size = new System.Drawing.Size(398, 310);
+            this.textBox1.Size = new System.Drawing.Size(398, 125);
             this.textBox1.TabIndex = 12;
             // 
             // labelLog
             // 
             this.labelLog.AutoSize = true;
             this.labelLog.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelLog.Location = new System.Drawing.Point(429, 358);
+            this.labelLog.Location = new System.Drawing.Point(429, 175);
             this.labelLog.Name = "labelLog";
             this.labelLog.Size = new System.Drawing.Size(47, 24);
             this.labelLog.TabIndex = 13;

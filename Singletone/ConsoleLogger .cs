@@ -4,9 +4,9 @@ namespace CiphersWithPatterns
 {
     public class ConsoleLogger : ILogger
     {
-        private static readonly ConsoleLogger _instance = new ConsoleLogger();
+        private static readonly ConsoleLogger instance = new ConsoleLogger();
 
-        public static ConsoleLogger Instance => _instance;
+        public static ConsoleLogger Instance => instance;
 
         private ConsoleLogger() { }
 
@@ -56,6 +56,20 @@ namespace CiphersWithPatterns
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.Write($"[REQUIREMENT] {message}");
+            Console.ResetColor();
+        }
+
+        public void LogBase(string message)
+        {
+            Console.ForegroundColor = ConsoleColor.Gray;
+            Console.Write(message);
+            Console.ResetColor();
+        }
+
+        public void LogBaseLine(string message)
+        {
+            Console.ForegroundColor = ConsoleColor.Gray;
+            Console.WriteLine(message);
             Console.ResetColor();
         }
     }

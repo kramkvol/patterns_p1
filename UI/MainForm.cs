@@ -44,7 +44,7 @@ namespace CiphersWithPatterns
                 txtKey1.Text,
                 txtKey2.Text
             );
-            var cipher = new DebugCipherDecorator(baseCipher);
+            var cipher = new LoggingCipherDecorator(baseCipher);
             
         }
     }

@@ -5,6 +5,7 @@ namespace CiphersWithPatterns
 {
     public class PlayfairCipherStrategy : ICipherStrategy
     {
+        public string type { get; }
         public string abc { get; }
         public int rows { get; }
         public int cols { get; }
