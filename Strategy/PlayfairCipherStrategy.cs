@@ -1,35 +1,30 @@
 ﻿using System;
 using System.Text;
+using System.Windows.Forms.VisualStyles;
 
 namespace CiphersWithPatterns
 {
     public class PlayfairCipherStrategy : ICipherStrategy
     {
-        public string type { get; }
-        public string abc { get; }
-        public int rows { get; }
-        public int cols { get; }
-        public string message { get; }
-        public string key1 { get; }
-
-        public string cleanKey1 { get; }
-        public char[,] table1 { get; }
-        public string bigrams { get; }
-
-        public string key2 { get; } = null;
-        public string cleanKey2 { get; } = null;
-        public char[,] table2 { get; } = null;
-
-        public PlayfairCipherStrategy(string abc, int rows, int cols, string message, string key1)
+        private string type { get; }
+        private string abc { get; }
+        private int rows { get; }
+        private int cols { get; }
+        private string message { get; }
+        private string key1 { get; }
+        private string cleanKey1 { get; }
+        private char[,] table1 { get; }
+        private string bigrams { get; }
+        public PlayfairCipherStrategy(string abc, int row, int col, string message, string key1)
         {
             this.abc = abc;
-            this.rows = rows;
-            this.cols = cols;
+            this.rows = row;
+            this.cols = col;
             this.message = message.ToLower().Replace("j", "i");
             this.key1 = key1;
 
             cleanKey1 = CipherTextPreprocessor.GetUniqLettersReplace(key1 + abc, abc);
-            table1 = CipherTableBuilder.BuildTable(cleanKey1, rows, cols);
+            table1 = CipherTableBuilder.BuildTable(cleanKey1, row, col);
             bigrams = CipherTextPreprocessor.GetBigramText(message, abc);
         }
 
@@ -43,18 +38,20 @@ namespace CiphersWithPatterns
             return encrypted.ToString();
         }
 
-        public string Decrypt(string encrypt)
+        public string Decrypt()
         {
+            string encrypted = CipherTextPreprocessor.GetOnlyLetters(message).ToLower();
             StringBuilder restored = new StringBuilder();
 
-            for (int i = 0; i < encrypt.Length; i += 2)
-                restored.Append(DecryptBigram(encrypt[i], encrypt[i + 1]));
+            for (int i = 0; i < encrypted.Length; i += 2)
+                restored.Append(DecryptBigram(encrypted[i], encrypted[i + 1]));
 
             return restored.ToString();
         }
 
-        public string CleanDecrypt(string decrypt)
+        public string CleanDecrypt()
         {
+            string decrypt = CipherTextPreprocessor.GetOnlyLetters(message);
             return CipherTextPreprocessor.PostprocessDecrypted(decrypt);
         }
 
@@ -93,5 +90,55 @@ namespace CiphersWithPatterns
             else
                 return $"{table1[r1, c2]}{table1[r2, c1]}";
         }
+
+        public string getType()
+        {
+            return type;
+        }
+        public string getMessege()
+        {
+            return message;
+        }
+        public string getAbc()
+        {
+            return abc;
+        }
+        public int getRow()
+        {
+            return rows;
+        }
+        public int getCol()
+        {
+            return cols;
+        }
+        public string getKey1()
+        {
+            return key1;
+        }
+        public string getKey2()
+        {
+            return null;
+        }
+        public string getCleanKey1()
+        {
+            return cleanKey1;
+        }
+        public string getCleanKey2()
+        {
+            return null;
+        }
+        public string getBigramms()
+        {
+            return bigrams;
+        }
+        public char[,] getTable1()
+        {
+            return table1;
+        }
+        public char[,] getTable2()
+        {
+            return null;
+        }
+
     }
 }

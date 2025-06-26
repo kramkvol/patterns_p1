@@ -13,11 +13,11 @@
         public string Encrypt() => 
             this.strategy.Encrypt();
 
-        public string Decrypt(string encrypt) => 
-            this.strategy.Decrypt(encrypt);
+        public string Decrypt() => 
+            this.strategy.Decrypt();
 
-        public string CleanDecrypt(string decrypt) => 
-            this.strategy.CleanDecrypt(decrypt);
+        public string CleanDecrypt() => 
+            this.strategy.CleanDecrypt();
 
         public ICipherStrategy Strategy 
             => strategy;

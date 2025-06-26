@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Windows.Forms;
-using ThePlayfairCipher;
 
 
 namespace CiphersWithPatterns
@@ -43,9 +42,9 @@ namespace CiphersWithPatterns
                 txtMessage.Text,
                 txtKey1.Text,
                 txtKey2.Text
-            );
-            var cipher = new LoggingCipherDecorator(baseCipher);
+            );     
             
+
         }
     }
 }

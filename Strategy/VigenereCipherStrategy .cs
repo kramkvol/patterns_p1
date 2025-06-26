@@ -5,19 +5,64 @@ namespace CiphersWithPatterns
 {
     class VigenereCipherStrategy : ICipherStrategy
     {
-        public string type { get; }
-        public string abc { get; }
-        public int rows { get; }
-        public int cols { get; }
-        public string message { get; }
-        public string key1 { get; }
-        public string cleanKey1 { get; } 
+        private string type { get; }
+        private string abc { get; }
+        private int rows { get; }
+        private int cols { get; }
+        private string message { get; }
+        private string key1 { get; }
+        private string cleanKey1 { get; }
+        private char[,] table1 { get; }
+        private string bigrams { get; }
 
-        public string key2 { get; } = null;
-        public string cleanKey2 { get; } = null;
-        public char[,] table1 { get; }
-        public char[,] table2 { get; } = null;
-        public string bigrams { get; } = null;
+        public string getType()
+        {
+            return type;
+        }
+        public string getMessege()
+        {
+            return message;
+        }
+        public string getAbc()
+        {
+            return abc;
+        }
+        public string getKey1()
+        {
+            return key1;
+        }
+        public string getKey2()
+        {
+            return null;
+        }
+        public int getRow()
+        {
+            return 0;
+        }
+        public int getCol()
+        {
+            return 0;
+        }
+        public string getCleanKey1()
+        {
+            return cleanKey1;
+        }
+        public string getCleanKey2()
+        {
+            return null;
+        }
+        public string getBigramms()
+        {
+            return bigrams;
+        }
+        public char[,] getTable1()
+        {
+            return table1;
+        }
+        public char[,] getTable2()
+        {
+            return null;
+        }
 
         public VigenereCipherStrategy(string abc, string message, string key1)
         {
@@ -46,9 +91,9 @@ namespace CiphersWithPatterns
 
             return result.ToString();
         }
-
-        public string Decrypt(string encrypted)
+        public string Decrypt()
         {
+            string encrypted = CipherTextPreprocessor.GetOnlyLetters(message);
             string longKey = CipherTextPreprocessor.GetLongKey(encrypted, key1);
             StringBuilder result = new StringBuilder();
 
@@ -63,8 +108,9 @@ namespace CiphersWithPatterns
             return result.ToString();
         }
 
-        public string CleanDecrypt(string decrypt)
+        public string CleanDecrypt()
         {
+            string decrypt = CipherTextPreprocessor.GetOnlyLetters(message);
             return CipherTextPreprocessor.PostprocessDecrypted(decrypt);
         }
     }

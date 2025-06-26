@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Windows.Forms;
-using ThePlayfairCipher;
 
 namespace CiphersWithPatterns
 {
@@ -47,42 +46,39 @@ namespace CiphersWithPatterns
                     logger.LogError("Invalid selection.");
                     return;
             }
-            try
+
+            logger.LogCharpter("Change the operation (1 - Encrypt, 2 - Decrypt): ");
+            string operation = "";
+            switch (Console.ReadLine())
             {
-                string abc = "abcdefghijklmnopqrstuvwxyz";
-                int rows = 5, cols = 5;
-
-                logger.LogInfo($"Running {type} cipher...");
-                var baseCipher = CipherFactoryMethod.Create(
-                    type, 
-                    abc, 
-                    rows, 
-                    cols, 
-                    readParameter("message", type),
-                    readParameter("key", type),
-                    readParameter("second key", type)
-                );
-                var cipher = new LoggingCipherDecorator(baseCipher);
-                LoggingCipherDecorator decorator = new LoggingCipherDecorator(cipher);
-
-                var context = new CipherContext(cipher);
-                string encrypted = context.Encrypt();
-                string decrypted = context.Decrypt(encrypted);
-                string cleaned = context.CleanDecrypt(decrypted);
-
-                logger.LogSuccess($"{type} cipher completed successfully.\n");
+                case "1":
+                    operation = "Encrypt";
+                    break;
+                case "2":
+                    operation = "Decrypt";
+                    break;
+                default:
+                    logger.LogError("Invalid selection.");
+                    return;
             }
-            catch (Exception ex)
-            {
-                logger.LogError($"Exception in {type} cipher: {ex.Message}");
-            }
-        }
 
-        static void RunWinFormsApp()
-        {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+
+            string abc = "abcdefghijklmnopqrstuvwxyz";
+            int rows = 5, cols = 5;
+
+            logger.LogInfo($"Running {type} cipher...");
+            var createdCipher = CipherFactoryMethod.Create(
+                type,
+                abc,
+                rows,
+                cols,
+                readParameter("message", type),
+                readParameter("key", type),
+                readParameter("second key", type)
+            );
+
+            var runCipherCommand = new RunAllCipherCommand(createdCipher, logger);
+            runCipherCommand.Execute();
         }
 
         private static string readParameter(string parameter, string type)
@@ -91,6 +87,13 @@ namespace CiphersWithPatterns
             var logger = ConsoleLogger.Instance;
             logger.LogRequirement($"Write {parameter}: ");
             return Console.ReadLine();
+        }
+
+        static void RunWinFormsApp()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new MainForm());
         }
     }
 }

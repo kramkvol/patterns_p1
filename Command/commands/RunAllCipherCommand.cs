@@ -1,43 +1,19 @@
 ﻿using System;
-using ThePlayfairCipher;
 
 namespace CiphersWithPatterns
 {
-    public class RunCipherCommand : ICipherCommand
+    public class RunAllCipherCommand : BaseCipherCommand
     {
-        private readonly string type;
-        private readonly string abc;
-        private readonly int rows;
-        private readonly int cols;
-        private readonly string message;
-        private readonly string key1;
-        private readonly string key2;
+        public RunAllCipherCommand(ICipherStrategy inner, ILogger logger) : base(inner, logger) { }
 
-        public RunCipherCommand(string type, string abc, int rows, int cols, string message, string key1, string key2, ILogger logger)
+        public override void Execute()
         {
-            this.type = type;
-            this.abc = abc;
-            this.rows = rows;
-            this.cols = cols;
-            this.message = message;
-            this.key1 = key1;
-            this.key2 = key2;
-        }
-
-        public void Execute()
-        {
-            var logger = ConsoleLogger.Instance;
-
-            try
-            {
-                logger.LogInfo($"Running {type} cipher...");
-                var cipher = new CreateCipherCommand(type, abc, rows, cols, message, key1, key2);
-                logger.LogSuccess($"{type} cipher completed successfully.");
-            }
-            catch (Exception ex)
-            {
-                logger.LogError($"Exception in {type} cipher: {ex.Message}");
-            }
+            CommandInvoker invoker = new CommandInvoker();
+            invoker.AddCommand(new InfoCipherCommand(inner, logger));
+            invoker.AddCommand(new EncryptResultCommand(inner, logger));
+            invoker.AddCommand(new DecryptResultCommand(inner, logger));
+            invoker.RunAll();
+            logger.LogSuccess($"{inner.GetType()} cipher completed successfully.\n");
         }
     }
 

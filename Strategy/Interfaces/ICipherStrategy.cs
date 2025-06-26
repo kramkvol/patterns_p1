@@ -2,20 +2,21 @@
 {
     public interface ICipherStrategy
     {
-        string type { get; }
-        string abc { get; }
-        int rows { get; }
-        int cols { get; }
-        string message { get; }
-        string key1 { get; }
-        string key2 { get; }
-        string cleanKey1 { get; }
-        string cleanKey2 { get; }
-        char[,] table1 { get; }
-        char[,] table2 { get; }
-        string bigrams { get; }
+        string getType();
+        string getMessege();
+        string getAbc();
+        int getRow();
+        int getCol();
+        string getBigramms();
+        string getKey1();
+        string getKey2();
+        string getCleanKey1();
+        string getCleanKey2();
+        char[,] getTable1();
+        char[,] getTable2();
+
         string Encrypt();
-        string Decrypt(string encrypt);
-        string CleanDecrypt(string decrypt);
+        string Decrypt();
+        string CleanDecrypt();
     }
 }

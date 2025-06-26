@@ -46,13 +46,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Command\CommandInvoker.cs" />
-    <Compile Include="Command\commands\CreateCipherCommand.cs" />
+    <Compile Include="Command\commands\BaseCipherCommand.cs" />
     <Compile Include="Command\commands\DecryptResultCommand.cs" />
     <Compile Include="Command\commands\EncryptResultCommand.cs" />
-    <Compile Include="Command\commands\LogCipherCommand.cs" />
+    <Compile Include="Command\commands\InfoCipherCommand.cs" />
     <Compile Include="Command\commands\RunAllCipherCommand.cs" />
     <Compile Include="Command\ICipherCommand.cs" />
-    <Compile Include="Decorator\LoggingCipherDecorator.cs" />
+    <Compile Include="Decorator\BaseCipherDecorator.cs" />
+    <Compile Include="Decorator\InfoCipherDecorator.cs" />
+    <Compile Include="Decorator\ResultCipherDecorator.cs" />
     <Compile Include="Singletone\UILogger.cs" />
     <Compile Include="Core\CipherContext.cs" />
     <Compile Include="FactoryMethod\CipherFactoryMethod.cs" />

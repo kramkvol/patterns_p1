@@ -1,12 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace CiphersWithPatterns
 {
-    internal class DecryptCommand
+    public class DecryptResultCommand : BaseCipherCommand
     {
+        public DecryptResultCommand(ICipherStrategy inner, ILogger logger) : base(inner, logger) { }
+
+        public override void Execute()
+        {
+            var decCipher = new ResultCipherDecorator(inner, logger);
+            decCipher.Decrypt();
+        }
     }
 }

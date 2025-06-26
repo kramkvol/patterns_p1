@@ -1,22 +1,20 @@
-﻿using System;
+﻿using CiphersWithPatterns;
+using System;
 using System.Text;
-using CiphersWithPatterns;
-
 public class WinstonCipherStrategy : ICipherStrategy
 {
-    public string type { get; }
-    public string abc { get; }
-    public int rows { get; }
-    public int cols { get; }
-    public string message { get; }
-    public string key1 { get; }
-    public string key2 { get; }
-
-    public string cleanKey1 { get; }
-    public string cleanKey2 { get; }
-    public char[,] table1 { get; }
-    public char[,] table2 { get; }
-    public string bigrams { get; }
+    private string type { get; }
+    private string abc { get; }
+    private int rows { get; }
+    private int cols { get; }
+    public string message;
+    private string key1 { get; }
+    private string key2 { get; }
+    private string cleanKey1 { get; }
+    private string cleanKey2 { get; }
+    private char[,] table1 { get; }
+    private char[,] table2 { get; }
+    private string bigrams { get; }
 
     public WinstonCipherStrategy(string abc, string message, int rows, int cols, string key1, string key2)
     {
@@ -46,8 +44,9 @@ public class WinstonCipherStrategy : ICipherStrategy
         return encrypted.ToString();
     }
 
-    public string Decrypt(string cipherText)
+    public string Decrypt()
     {
+        string cipherText = CipherTextPreprocessor.GetOnlyLetters(message);
         StringBuilder restored = new StringBuilder();
         for (int i = 0; i < cipherText.Length; i += 2)
         {
@@ -56,8 +55,9 @@ public class WinstonCipherStrategy : ICipherStrategy
         return restored.ToString();
     }
 
-    public string CleanDecrypt(string decrypt)
+    public string CleanDecrypt()
     {
+        string decrypt = CipherTextPreprocessor.GetOnlyLetters(message);
         return CipherTextPreprocessor.PostprocessDecrypted(decrypt);
     }
 
@@ -90,5 +90,54 @@ public class WinstonCipherStrategy : ICipherStrategy
         char decB = table2[r2, cols - 1 - c2];
 
         return $"{decA}{decB}";
+    }
+
+    public string getType()
+    {
+        return type;
+    }
+    public string getMessege()
+    {
+        return message;
+    }
+    public string getAbc()
+    {
+        return abc;
+    }
+    public int getRow()
+    {
+        return rows;
+    }
+    public int getCol()
+    {
+        return cols;
+    }
+    public string getKey1()
+    {
+        return key1;
+    }
+    public string getKey2()
+    {
+        return key2;
+    }
+    public string getCleanKey1()
+    {
+        return cleanKey1;
+    }
+    public string getCleanKey2()
+    {
+        return cleanKey2;
+    }
+    public string getBigramms()
+    {
+        return bigrams;
+    }
+    public char[,] getTable1()
+    {
+        return table1;
+    }
+    public char[,] getTable2()
+    {
+        return table2;
     }
 }
