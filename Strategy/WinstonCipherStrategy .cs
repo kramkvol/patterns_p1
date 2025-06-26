@@ -2,7 +2,7 @@
 using System.Text;
 using CiphersWithPatterns;
 
-public class WinstonCipherStrategy : ICipherStrategy, ICipherMetadata
+public class WinstonCipherStrategy : ICipherStrategy
 {
     public string abc { get; }
     public int rows { get; }
@@ -17,7 +17,7 @@ public class WinstonCipherStrategy : ICipherStrategy, ICipherMetadata
     public char[,] table2 { get; }
     public string bigrams { get; }
 
-    public WinstonCipherStrategy(string message, string abc, int rows, int cols, string key1, string key2)
+    public WinstonCipherStrategy(string abc, string message, int rows, int cols, string key1, string key2)
     {
         this.abc = abc;
         this.rows = rows;

@@ -8,6 +8,7 @@
         void LogCharpter(string message);
         void LogSuccess(string message);
         void LogDebug(string message);
+        void LogRequirement(string message);
     }
 
 }

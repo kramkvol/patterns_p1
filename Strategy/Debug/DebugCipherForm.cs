@@ -3,7 +3,7 @@ using System.Text;
 
 namespace CiphersWithPatterns
 {
-    public static class CipherDebugger
+    public static class CipherDebuggerForm
     {
         public static string PrintInf(ICipherStrategy strategy)
         {

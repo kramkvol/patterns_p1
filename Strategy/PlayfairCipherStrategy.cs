@@ -3,7 +3,7 @@ using System.Text;
 
 namespace CiphersWithPatterns
 {
-    public class PlayfairCipherStrategy : ICipherStrategy, ICipherMetadata
+    public class PlayfairCipherStrategy : ICipherStrategy
     {
         public string abc { get; }
         public int rows { get; }

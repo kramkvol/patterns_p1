@@ -1,17 +1,15 @@
 ﻿using System;
 using System.Windows.Forms;
+using ThePlayfairCipher;
 
 
 namespace CiphersWithPatterns
 {
     public partial class MainForm : Form
     {
-        private CipherController controller;
-
         public MainForm()
         {
             InitializeComponent();
-            controller = new CipherController(this);
         }
 
         public string Message => txtMessage.Text;
@@ -19,7 +17,7 @@ namespace CiphersWithPatterns
         public string Key2 => txtKey2.Text;
         public string TxtLog => txtLog.Text;
 
-        public string CipherType => cmbCipherType.SelectedItem?.ToString();
+        public string CipherType => cmbCipher.SelectedItem?.ToString();
 
 
         public void ShowResult(string result)
@@ -32,14 +30,22 @@ namespace CiphersWithPatterns
             txtLog.AppendText(text + Environment.NewLine);
         }
 
-        private void btnEncrypt_Click(object sender, EventArgs e)
+        private void btnOK_Click(object sender, EventArgs e)
         {
-            controller.Encrypt();
-        }
-
-        private void btnDecrypt_Click(object sender, EventArgs e)
-        {
-            controller.Decrypt();
+            var logger = new UILogger(this);
+            string abc = "abcdefghijklmnopqrstuvwxyz";
+            int rows = 5, cols = 5;
+            var baseCipher = CipherFactoryMethod.Create(
+                cmbCipher.SelectedText,
+                abc,
+                rows,
+                cols,
+                txtMessage.Text,
+                txtKey1.Text,
+                txtKey2.Text
+            );
+            var cipher = new DebugCipherDecorator(baseCipher);
+            
         }
     }
 }

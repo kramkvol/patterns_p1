@@ -3,13 +3,12 @@ using System.Text;
 
 namespace CiphersWithPatterns
 {
-    class VigenereCipherStrategy : ICipherStrategy, ICipherMetadata
+    class VigenereCipherStrategy : ICipherStrategy
     {
         public string abc { get; }
         public int rows { get; }
         public int cols { get; }
         public string message { get; }
-
         public string key1 { get; }
         public string cleanKey1 { get; } 
 

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Windows.Forms;
 
 namespace CiphersWithPatterns
 {
@@ -22,7 +23,7 @@ namespace CiphersWithPatterns
                 case "Winston":
                     if (string.IsNullOrWhiteSpace(type) || string.IsNullOrWhiteSpace(abc) || string.IsNullOrWhiteSpace(message) || string.IsNullOrWhiteSpace(key1) || string.IsNullOrWhiteSpace(key2))
                         throw new ArgumentException("Parameters cannot be null or empty.");
-                    return new WinstonCipherStrategy(message, abc, rows, cols, key1, key2);
+                    return new WinstonCipherStrategy(abc, message, rows, cols, key1, key2);
                 case "Vigenere":
                     if (string.IsNullOrWhiteSpace(type) || string.IsNullOrWhiteSpace(message) || string.IsNullOrWhiteSpace(key1))
                         throw new ArgumentException("Parameters cannot be null or empty.");

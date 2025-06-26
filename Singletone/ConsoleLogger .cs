@@ -33,14 +33,14 @@ namespace CiphersWithPatterns
 
         public void LogCharpter(string message)
         {
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
             Console.WriteLine($"[CHARPTER] {message}");
             Console.ResetColor();
         }
 
         public void LogSuccess(string message)
         {
-            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.WriteLine($"[SUCCESS] {message}");
             Console.ResetColor();
         }
@@ -49,6 +49,13 @@ namespace CiphersWithPatterns
         {
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine($"{message}");
+            Console.ResetColor();
+        }
+
+        public void LogRequirement(string message)
+        {
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.Write($"[REQUIREMENT] {message}");
             Console.ResetColor();
         }
     }
