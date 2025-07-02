@@ -1,118 +1,79 @@
-﻿using System.Linq;
+﻿using Ciphers.Core;
+using System;
 using System.Text;
 
-namespace CiphersWithPatterns
+namespace Ciphers.Strategy
 {
-    class VigenereCipherStrategy : ICipherStrategy
+    class VigenereCipherStrategy : BaseCipherStrategy
     {
-        private string type { get; }
-        private string abc { get; }
-        private int rows { get; }
-        private int cols { get; }
-        private string message { get; }
-        private string key1 { get; }
-        private string cleanKey1 { get; }
-        private char[,] table1 { get; }
-        private string bigrams { get; }
-
-        public string getType()
+        public VigenereCipherStrategy(string abc, string message, string key1) 
+            : base(abc, message, key1) 
         {
-            return type;
-        }
-        public string getMessege()
-        {
-            return message;
-        }
-        public string getAbc()
-        {
-            return abc;
-        }
-        public string getKey1()
-        {
-            return key1;
-        }
-        public string getKey2()
-        {
-            return null;
-        }
-        public int getRow()
-        {
-            return 0;
-        }
-        public int getCol()
-        {
-            return 0;
-        }
-        public string getCleanKey1()
-        {
-            return cleanKey1;
-        }
-        public string getCleanKey2()
-        {
-            return null;
-        }
-        public string getBigramms()
-        {
-            return bigrams;
-        }
-        public char[,] getTable1()
-        {
-            return table1;
-        }
-        public char[,] getTable2()
-        {
-            return null;
+            this.Abc = abc;
+            this.Message = message;
+            this.Key1 = key1;
+            Rows = abc.Length;
+            Cols = abc.Length;
+            Table1 = UtilForTables.BuildVigenereTable(Abc, Rows);
         }
 
-        public VigenereCipherStrategy(string abc, string message, string key1)
+        public override int GetCol() => 0;
+        public override int GetRow() => 0;
+        public override string GetKey2() => null;
+        public override char[,] GetTable2() => null;
+        public override string GetCipher() => "Vigenere";
+        public override string Encrypt()
         {
-            this.abc = abc;
-            this.message = message;
-            this.key1 = key1;
-            rows = abc.Length;
-            cols = abc.Length;
-            cleanKey1 = CipherTextPreprocessor.GetLongKey(message, key1);
-            table1 = CipherTableBuilder.BuildVigenereTable(abc, rows);
-        }
+            string preprocess_message = UtilForText.GetOnlyLetters(GetMessege().ToLower());
+            string preprocess_key = UtilForText.GetRepeatedKey(preprocess_message, GetKey1().ToLower());
 
-        public string Encrypt()
-        {
-            string cleanMessage = new string(message.Where(c => abc.Contains(c)).ToArray());
-            string longKey = CipherTextPreprocessor.GetLongKey(cleanMessage, key1);
-            StringBuilder result = new StringBuilder();
-
-            for (int i = 0; i < cleanMessage.Length; i++)
+            StringBuilder result = new();
+            for (int i = 0; i < preprocess_message.Length; i++)
             {
-                int msgIndex = abc.IndexOf(cleanMessage[i]);
-                int keyIndex = abc.IndexOf(longKey[i]);
-                int encIndex = (msgIndex + keyIndex) % abc.Length;
-                result.Append(abc[encIndex]);
-            }
-
-            return result.ToString();
-        }
-        public string Decrypt()
-        {
-            string encrypted = CipherTextPreprocessor.GetOnlyLetters(message);
-            string longKey = CipherTextPreprocessor.GetLongKey(encrypted, key1);
-            StringBuilder result = new StringBuilder();
-
-            for (int i = 0; i < encrypted.Length; i++)
-            {
-                int encIndex = abc.IndexOf(encrypted[i]);
-                int keyIndex = abc.IndexOf(longKey[i]);
-                int msgIndex = (encIndex - keyIndex + abc.Length) % abc.Length;
-                result.Append(abc[msgIndex]);
+                result.Append(EncryptChar(preprocess_message[i], preprocess_key[i]));
             }
 
             return result.ToString();
         }
 
-        public string CleanDecrypt()
+        public override string Decrypt()
         {
-            string decrypt = CipherTextPreprocessor.GetOnlyLetters(message);
-            return CipherTextPreprocessor.PostprocessDecrypted(decrypt);
+            string cipherText = UtilForText.GetOnlyLetters(GetMessege().ToLower());
+            string preprocess_key = UtilForText.GetRepeatedKey(cipherText, GetKey1().ToLower());
+
+            Table1 = UtilForTables.BuildVigenereTable(Abc, Abc.Length);
+
+            StringBuilder result = new();
+            for (int i = 0; i < cipherText.Length; i++)
+            {
+                result.Append(DecryptChar(cipherText[i], preprocess_key[i]));
+            }
+
+            return result.ToString();
         }
+
+
+        private char EncryptChar(char plainChar, char keyChar)
+        {
+            int row = Abc.IndexOf(char.ToLower(keyChar));
+            int col = Abc.IndexOf(char.ToLower(plainChar));
+
+            return Table1[row, col];
+        }
+
+        private char DecryptChar(char cipherChar, char keyChar)
+        {
+            int row = Abc.IndexOf(char.ToLower(keyChar));
+
+            for (int col = 0; col < Abc.Length; col++)
+            {
+                if (Table1[row, col] == cipherChar)
+                    return Abc[col];
+            }
+
+            throw new Exception($"Character {cipherChar} not found in Vigenere row.");
+        }
+
     }
 
 }

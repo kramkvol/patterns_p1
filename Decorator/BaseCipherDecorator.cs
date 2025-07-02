@@ -1,68 +1,51 @@
-﻿using System.Windows.Forms;
+﻿using Ciphers.Singletone;
+using Ciphers.Strategy;
 
-namespace CiphersWithPatterns
+namespace Ciphers.Decorator
 {
     public abstract class BaseCipherDecorator : ICipherStrategy
     {
         protected ICipherStrategy inner;
         protected ILogger logger;
-        public BaseCipherDecorator(ICipherStrategy inner, ILogger logger) {
+        public string GetCipher() => inner.GetCipher();
+        public string GetMessege() => inner.GetMessege();
+        public string GetAbc() => inner.GetAbc();
+        public int GetRow() => inner.GetRow();
+        public int GetCol() => inner.GetCol();
+        public string GetKey1() => inner.GetKey1();
+        public string GetKey2() => inner.GetKey2();
+        public string GetBigramms() => inner.GetBigramms();
+        public char[,] GetTable1() => inner.GetTable1();
+        public char[,] GetTable2() => inner.GetTable2();
+
+        public BaseCipherDecorator(ICipherStrategy inner, ILogger logger)
+        {
             this.inner = inner;
             this.logger = logger;
         }
-        public virtual string Encrypt() => inner.Encrypt();
-        public virtual string Decrypt() => inner.Decrypt();
-        public virtual string CleanDecrypt() => inner.CleanDecrypt();
 
-        public string getType()
+        public string Encrypt()
         {
-            return inner.getType();
+            logger.LogInfo("Encryption started...");
+            var result = inner.Encrypt();
+            logger.LogResult($"Encrypted: {result}");
+            return result;
         }
-        public string getMessege()
+        public string Decrypt()
         {
-            return inner.getMessege();
+            logger.LogInfo("Decryption started...");
+            var result = inner.Decrypt();
+            logger.LogResult($"Decrypted: {result}");
+            return result;
         }
-        public int getRow()
+        public string CleanDecrypt()
         {
-            return inner.getRow();
+            logger.LogInfo("Clean Decryption started...");
+            var result = inner.CleanDecrypt().ToLower();
+            logger.LogResult($"Clean Decrypted: {result}");
+            return result;
         }
 
-        public int getCol()
-        {
-            return inner.getCol();
-        }
-        public string getAbc()
-        {
-            return inner.getAbc();
-        }
-        public string getKey1()
-        {
-            return inner.getKey1();
-        }
-        public string getKey2()
-        {
-            return inner.getKey2();
-        }
-        public string getCleanKey1()
-        {
-            return inner.getCleanKey1();
-        }
-        public string getCleanKey2()
-        {
-            return inner.getCleanKey2();
-        }
-        public string getBigramms()
-        {
-            return inner.getBigramms();
-        }
-        public char[,] getTable1()
-        {
-            return inner.getTable1();
-        }
-        public char[,] getTable2()
-        {
-            return inner.getTable2();
-        }
     }
 
 }

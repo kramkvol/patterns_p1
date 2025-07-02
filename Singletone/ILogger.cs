@@ -1,4 +1,4 @@
-﻿namespace CiphersWithPatterns
+﻿namespace Ciphers.Singletone
 {
     public interface ILogger
     {
@@ -9,7 +9,6 @@
         void LogSuccess(string message);
         void LogDebug(string message);
         void LogRequirement(string message);
-        void LogBase(string message);
         void LogBaseLine(string message);
     }
 

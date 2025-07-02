@@ -1,4 +1,4 @@
-﻿namespace CiphersWithPatterns
+﻿namespace Ciphers.Command
 {
     public interface ICipherCommand
     {

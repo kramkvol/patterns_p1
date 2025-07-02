@@ -1,25 +1,15 @@
-﻿namespace CiphersWithPatterns
+﻿using Ciphers.Strategy;
+
+namespace Ciphers.Core
 {
     public class CipherContext
     {
-        private ICipherStrategy strategy;
+        private readonly ICipherStrategy strategy;
+        private readonly string action;
 
-        public CipherContext(ICipherStrategy strategy) => 
+        public CipherContext(ICipherStrategy strategy, string action) {
             this.strategy = strategy;
-
-        public void SetStrategy(ICipherStrategy newStrategy) =>
-            this.strategy = newStrategy;
-
-        public string Encrypt() => 
-            this.strategy.Encrypt();
-
-        public string Decrypt() => 
-            this.strategy.Decrypt();
-
-        public string CleanDecrypt() => 
-            this.strategy.CleanDecrypt();
-
-        public ICipherStrategy Strategy 
-            => strategy;
+            this.action = action;
+        }
     }
 }

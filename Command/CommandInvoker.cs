@@ -1,15 +1,12 @@
-﻿using System.Collections.Generic;
-
-namespace CiphersWithPatterns
+﻿using Ciphers.Command.commands;
+using System.Collections.Generic;
+namespace Ciphers.Command
 {
     public class CommandInvoker
     {
-        private readonly List<ICipherCommand> commands = new List<ICipherCommand>();
+        private readonly List<BaseCipherCommand> commands = new();
 
-        public void AddCommand(ICipherCommand command)
-        {
-            commands.Add(command);
-        }
+        public void AddCommand(BaseCipherCommand command) => commands.Add(command);
 
         public void RunAll()
         {

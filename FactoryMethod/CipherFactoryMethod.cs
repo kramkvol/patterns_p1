@@ -1,6 +1,7 @@
-﻿using System;
+﻿using Ciphers.Strategy;
+using System;
 
-namespace CiphersWithPatterns
+namespace Ciphers.FactoryMethod
 {
     public static class CipherFactoryMethod
     {

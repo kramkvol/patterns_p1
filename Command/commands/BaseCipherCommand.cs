@@ -1,16 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-namespace CiphersWithPatterns { 
-    public abstract class BaseCipherCommand : ICipherCommand 
+﻿using Ciphers.Singletone;
+using Ciphers.Strategy;
+
+namespace Ciphers.Command.commands
+{
+    public class BaseCipherCommand : ICipherCommand
     {
         protected ICipherStrategy inner;
         protected ILogger logger;
+        protected string action;
 
-        public BaseCipherCommand(ICipherStrategy inner, ILogger logger)
+        public BaseCipherCommand(ICipherStrategy inner, ILogger logger, string action)
         {
             this.inner = inner;
             this.logger = logger;
+            this.action = action;
         }
 
         public virtual void Execute() { }

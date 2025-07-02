@@ -1,13 +1,11 @@
 ﻿using System;
 
-namespace CiphersWithPatterns
+namespace Ciphers.Singletone
 {
     public class ConsoleLogger : ILogger
     {
-        private static readonly ConsoleLogger instance = new ConsoleLogger();
-
+        private static readonly ConsoleLogger instance = new();
         public static ConsoleLogger Instance => instance;
-
         private ConsoleLogger() { }
 
         public void LogInfo(string message)
@@ -59,16 +57,9 @@ namespace CiphersWithPatterns
             Console.ResetColor();
         }
 
-        public void LogBase(string message)
-        {
-            Console.ForegroundColor = ConsoleColor.Gray;
-            Console.Write(message);
-            Console.ResetColor();
-        }
-
         public void LogBaseLine(string message)
         {
-            Console.ForegroundColor = ConsoleColor.Gray;
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine(message);
             Console.ResetColor();
         }
