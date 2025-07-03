@@ -1,5 +1,5 @@
-﻿using Ciphers.Singletone;
-using Ciphers.Strategy;
+﻿using Ciphers.Core;
+using Ciphers.Singletone;
 namespace Ciphers.Command.commands
 {
     public class RunCipher : BaseCipherCommand
@@ -35,7 +35,7 @@ namespace Ciphers.Command.commands
             }
 
             invoker.RunAll();
-            logger.LogSuccess($"{inner.GetType()} cipher completed successfully.\n");
+            logger.LogSuccess($"{inner.GetCipher()} cipher completed successfully.");
         }
     }
 }

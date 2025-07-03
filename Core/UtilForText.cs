@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using Ciphers.Singletone;
+using System;
+using System.Text;
 
 namespace Ciphers.Core
 {
@@ -67,16 +69,24 @@ namespace Ciphers.Core
             string preprocess_message = UtilForText.GetOnlyLetters(message);
 
             int int_div = preprocess_message.Length / preprocess_key.Length;
-            int ostatok = preprocess_message.Length % preprocess_key.Length;
+            int ostatok = preprocess_message.Length - (preprocess_key.Length * int_div);
             for (int i = 0; i < int_div; i++)
             {
-                result += key;
+                result += preprocess_key;
             }
             for (int z = 0; z < ostatok; z++)
             {
-                result += key[z];
+                result += preprocess_key[z];
             }
-            return result;
+            return result.ToLower();
+        }
+
+        public static string ReadParameter(string parameter, string type)
+        {
+            if (parameter == "second key" && (type == "Playfair" || type == "Vigenere")) { return null; }
+            var logger = ConsoleLogger.Instance;
+            logger.LogRequirement($"Write {parameter}: ");
+            return Console.ReadLine();
         }
     }
 }

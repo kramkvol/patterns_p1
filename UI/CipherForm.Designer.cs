@@ -1,4 +1,7 @@
-﻿namespace Ciphers.UI
+﻿using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+
+namespace Ciphers.UI
 {
     partial class CipherForm
     {
@@ -47,7 +50,8 @@
             comboboxCipher.Name = "comboboxCipher";
             comboboxCipher.Size = new System.Drawing.Size(392, 31);
             comboboxCipher.TabIndex = 0;
-            comboboxCipher.Text = "Select Cipher...";
+            comboboxCipher.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboboxCipher.SelectedIndex = 0;
             // 
             // comboxMode
             // 
@@ -58,7 +62,8 @@
             comboxMode.Name = "comboxMode";
             comboxMode.Size = new System.Drawing.Size(392, 31);
             comboxMode.TabIndex = 1;
-            comboxMode.Text = "Select mode...";
+            comboxMode.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboxMode.SelectedIndex = 0;
             // 
             // textBoxKey1
             // 
@@ -69,7 +74,7 @@
             textBoxKey1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             textBoxKey1.Size = new System.Drawing.Size(392, 92);
             textBoxKey1.TabIndex = 2;
-            textBoxKey1.Text = "Write First key...";
+            textBoxKey1.Text = "First key";
             // 
             // textBoxKey2
             // 
@@ -80,7 +85,7 @@
             textBoxKey2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             textBoxKey2.Size = new System.Drawing.Size(392, 92);
             textBoxKey2.TabIndex = 3;
-            textBoxKey2.Text = "Write Second key...";
+            textBoxKey2.Text = "Second key";
             // 
             // textBoxMessage
             // 
@@ -91,21 +96,10 @@
             textBoxMessage.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             textBoxMessage.Size = new System.Drawing.Size(392, 92);
             textBoxMessage.TabIndex = 4;
-            textBoxMessage.Text = "Write Message...";
-            // 
-            // textBoxResults
-            // 
-            textBoxResults.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            textBoxResults.Location = new System.Drawing.Point(414, 535);
-            textBoxResults.Multiline = true;
-            textBoxResults.Name = "textBoxResults";
-            textBoxResults.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            textBoxResults.Size = new System.Drawing.Size(880, 76);
-            textBoxResults.TabIndex = 5;
-            textBoxResults.Text = "<Results dispay here>";
-            // 
+            textBoxMessage.Text = "Hello world!";
+            //
             // textBoxLog
-            // 
+            //
             textBoxLog.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             textBoxLog.Location = new System.Drawing.Point(414, 12);
             textBoxLog.Multiline = true;
@@ -114,6 +108,21 @@
             textBoxLog.Size = new System.Drawing.Size(880, 517);
             textBoxLog.TabIndex = 6;
             textBoxLog.Text = "<Log displays here>";
+            textBoxLog.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            textBoxLog.ReadOnly = true;
+            //
+            // textBoxResults
+            //
+            textBoxResults.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            textBoxResults.Location = new System.Drawing.Point(414, 535);
+            textBoxResults.Multiline = true;
+            textBoxResults.Name = "textBoxResults";
+            textBoxResults.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            textBoxResults.Size = new System.Drawing.Size(880, 76);
+            textBoxResults.TabIndex = 5;
+            textBoxResults.Text = "<Results display here>";
+            textBoxResults.Anchor = AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Bottom;
+            textBoxResults.ReadOnly = true;
             // 
             // buttonGo
             // 
@@ -125,6 +134,7 @@
             buttonGo.Text = "Go!";
             buttonGo.UseVisualStyleBackColor = true;
             buttonGo.Click += ButtonGo_Click;
+            buttonGo.Anchor = AnchorStyles.Left | AnchorStyles.Bottom;
             // 
             // CipherForm
             // 

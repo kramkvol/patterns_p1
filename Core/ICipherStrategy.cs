@@ -1,19 +1,17 @@
-﻿namespace Ciphers.Strategy
+﻿namespace Ciphers.Core
 {
     public interface ICipherStrategy
     {
         string GetCipher();
-        string GetMessege();
-        string GetAbc();
-        int GetRow();
-        int GetCol();
-        string GetBigramms();
+        string GetMessage();
         string GetKey1();
         string GetKey2();
-
+        string GetBigrams();
         char[,] GetTable1();
         char[,] GetTable2();
-
+        string GetAbc();
+        int GetRows();
+        int GetCols();
 
         string Encrypt();
         string Decrypt();

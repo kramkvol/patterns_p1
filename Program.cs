@@ -1,4 +1,5 @@
 ﻿using Ciphers.Command.commands;
+using Ciphers.Core;
 using Ciphers.FactoryMethod;
 using Ciphers.Singletone;
 using Ciphers.UI;
@@ -16,14 +17,15 @@ namespace Ciphers
             logger.LogCharpter("Select UI mode:");
             logger.LogDebug("1. Console");
             logger.LogDebug("2. WinForms");
-
-            switch (Console.ReadLine())
             {
-                case "1": RunConsoleApp(); break;
-                case "2": RunWinFormsApp(); break;
-                default: 
-                    logger.LogError("Invalid selection."); 
-                    return;
+                switch (Console.ReadLine())
+                {
+                    case "1": RunConsoleApp(); break;
+                    case "2": RunWinFormsApp(); break;
+                    default:
+                        logger.LogError("Invalid selection.");
+                        return;
+                }
             }
         }
 
@@ -50,9 +52,9 @@ namespace Ciphers
                 abc,
                 rows,
                 cols,
-                ReadParameter("message", type),
-                ReadParameter("key", type),
-                ReadParameter("second key", type)
+                UtilForText.ReadParameter("message", type),
+                UtilForText.ReadParameter("key", type),
+                UtilForText.ReadParameter("second key", type)
             );
 
             logger.LogCharpter("Change the operation (1 - Encrypt, 2 - Decrypt): ");
@@ -68,14 +70,6 @@ namespace Ciphers
 
             RunCipher runCipher = new (createdCipher, logger, action);
             runCipher.Execute();
-        }
-
-        private static string ReadParameter(string parameter, string type)
-        {
-            if (parameter == "second key" && (type == "Playfair" || type == "Vigenere")) { return null; }
-            var logger = ConsoleLogger.Instance;
-            logger.LogRequirement($"Write {parameter}: ");
-            return Console.ReadLine();
         }
 
         private static void RunWinFormsApp()

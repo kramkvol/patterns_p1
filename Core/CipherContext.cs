@@ -1,6 +1,4 @@
-﻿using Ciphers.Strategy;
-
-namespace Ciphers.Core
+﻿namespace Ciphers.Core
 {
     public class CipherContext
     {

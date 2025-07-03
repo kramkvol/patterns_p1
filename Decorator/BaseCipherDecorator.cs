@@ -1,5 +1,5 @@
-﻿using Ciphers.Singletone;
-using Ciphers.Strategy;
+﻿using Ciphers.Core;
+using Ciphers.Singletone;
 
 namespace Ciphers.Decorator
 {
@@ -7,16 +7,16 @@ namespace Ciphers.Decorator
     {
         protected ICipherStrategy inner;
         protected ILogger logger;
-        public string GetCipher() => inner.GetCipher();
-        public string GetMessege() => inner.GetMessege();
-        public string GetAbc() => inner.GetAbc();
-        public int GetRow() => inner.GetRow();
-        public int GetCol() => inner.GetCol();
-        public string GetKey1() => inner.GetKey1();
-        public string GetKey2() => inner.GetKey2();
-        public string GetBigramms() => inner.GetBigramms();
-        public char[,] GetTable1() => inner.GetTable1();
-        public char[,] GetTable2() => inner.GetTable2();
+        public virtual string GetMessage() => null;
+        public virtual string GetKey1() => null;
+        public virtual string GetKey2() => null;
+        public virtual string GetBigrams() => null;
+        public virtual char[,] GetTable1() => null;
+        public virtual char[,] GetTable2() => null;
+        public virtual string GetAbc() => null;
+        public virtual int GetRows() => 0;
+        public virtual int GetCols() => 0;
+        public virtual string GetCipher() => null;
 
         public BaseCipherDecorator(ICipherStrategy inner, ILogger logger)
         {
@@ -28,13 +28,16 @@ namespace Ciphers.Decorator
         {
             logger.LogInfo("Encryption started...");
             var result = inner.Encrypt();
+            DebugEncryptCipher();
             logger.LogResult($"Encrypted: {result}");
             return result;
         }
+
         public string Decrypt()
         {
             logger.LogInfo("Decryption started...");
             var result = inner.Decrypt();
+            DebugDecryptCipher();
             logger.LogResult($"Decrypted: {result}");
             return result;
         }
@@ -46,6 +49,8 @@ namespace Ciphers.Decorator
             return result;
         }
 
+        public virtual void DebugEncryptCipher() { }
+        public virtual void DebugDecryptCipher() { }
     }
 
 }

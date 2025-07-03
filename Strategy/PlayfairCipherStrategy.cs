@@ -9,9 +9,25 @@ namespace Ciphers.Strategy
 {
     public class PlayfairCipherStrategy : BaseCipherStrategy   
     {
+        protected string Abc { get; }
+        protected string Message { get; }
+        protected string Key1 { get; }
+        protected string Bigrams { get; }
+        protected char[,] Table1 { get; }
+        protected int Rows { get; }
+        protected int Cols { get; }
+
+        public override string GetAbc() => Abc;
+        public override string GetMessage() => Message;
+        public override string GetKey1() => Key1;
+        public override string GetBigrams() => Bigrams;
+        public override char[,] GetTable1() => Table1;
+        public override int GetRows() => Rows;
+        public override int GetCols() => Cols;
+        public override string GetCipher() => "Playfair";
+
 
         public PlayfairCipherStrategy(string abc, int row, int col, string message, string key1)
-            : base(abc, row, col, message, key1)
         {
             Abc = abc;
             Rows = row;
@@ -22,9 +38,6 @@ namespace Ciphers.Strategy
             Table1 = UtilForTables.BuildTable(UtilForText.GetUniqLettersReplace(key1 + abc, abc), row, col);
             Bigrams = UtilForText.GetBigramText(message, abc);
         }
-        public override string GetCipher() => "Playfair";
-        public override string GetKey2() => null;
-        public override char[,] GetTable2() => null;
 
         public override string Encrypt()
         {

@@ -1,4 +1,5 @@
-﻿using Ciphers.Strategy;
+﻿using Ciphers.Core;
+using Ciphers.Strategy;
 using System;
 
 namespace Ciphers.FactoryMethod

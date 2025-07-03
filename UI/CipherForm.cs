@@ -33,22 +33,31 @@ namespace Ciphers.UI
 
         private void ButtonGo_Click(object sender, EventArgs e)
         {
+            textBoxLog.Text = string.Empty;
+            textBoxResults.Text = "";
+
             var logger = new UILogger(this);
             string abc = "abcdefghijklmnopqrstuvwxyz";
             int rows = 5, cols = 5;
 
-            var createdCipher = CipherFactoryMethod.Create(
-                comboboxCipher.Text,
-                abc,
-                rows,
-                cols,
-                textBoxMessage.Text,
-                textBoxKey1.Text,
-                textBoxKey2.Text
-            );
-
-            RunCipher runCipher = new(createdCipher, logger, comboxMode.Text);
-            runCipher.Execute();
+            try
+            {
+                var createdCipher = CipherFactoryMethod.Create(
+                    comboboxCipher.Text,
+                    abc,
+                    rows,
+                    cols,
+                    textBoxMessage.Text,
+                    textBoxKey1.Text,
+                    textBoxKey2.Text
+                );
+                RunCipher runCipher = new(createdCipher, logger, comboxMode.Text);
+                runCipher.Execute();
+            }
+            catch (Exception ex)
+            {
+                textBoxLog.Text = $"[ERROR] {ex.GetType} {ex.Message}";
+            }
         }
     }
 }

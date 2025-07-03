@@ -1,6 +1,6 @@
-﻿using Ciphers.Decorator;
+﻿using Ciphers.Core;
+using Ciphers.Decorator;
 using Ciphers.Singletone;
-using Ciphers.Strategy;
 namespace Ciphers.Command.commands
 {
     public class DecryptVigenereCommand : BaseCipherCommand

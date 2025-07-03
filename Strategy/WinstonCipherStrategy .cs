@@ -6,7 +6,28 @@ namespace Ciphers.Strategy
 {
     public class WinstonCipherStrategy : BaseCipherStrategy
     {
-        public WinstonCipherStrategy(string abc, string message, int rows, int cols, string key1, string key2) : base(abc, message, rows, cols, key1, key2)
+        protected string Abc { get; }
+        protected string Message { get; }
+        protected string Key1 { get; }
+        protected string Key2 { get; }
+        protected string Bigrams { get; }
+        protected char[,] Table1 { get; }
+        protected char[,] Table2 { get; }
+        protected int Rows { get; }
+        protected int Cols { get; }
+
+        public override string GetAbc() => Abc;
+        public override string GetMessage() => Message;
+        public override string GetKey1() => Key1;
+        public override string GetKey2() => Key2;
+        public override string GetBigrams() => Bigrams;
+        public override char[,] GetTable1() => Table1;
+        public override char[,] GetTable2() => Table2;
+        public override int GetRows() => Rows;
+        public override int GetCols() => Cols;
+        public override string GetCipher() => "Winston";
+
+        public WinstonCipherStrategy(string abc, string message, int rows, int cols, string key1, string key2)
         {
             this.Abc = abc;
             this.Rows = rows;
@@ -20,7 +41,6 @@ namespace Ciphers.Strategy
 
             Bigrams = UtilForText.GetBigramText(Message, abc);
         }
-        public override string GetCipher() => "Winston";
         public override string Encrypt()
         {
             StringBuilder result = new();
@@ -30,6 +50,12 @@ namespace Ciphers.Strategy
             }
             return result.ToString();
         }
+
+        public override string Decrypt()
+        {
+            return Encrypt();
+        }
+
         private string SolveBigram(char a, char b)
         {
             var (r1, c1) = UtilForTables.FindPosition(Table1, a);

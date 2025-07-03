@@ -1,5 +1,5 @@
-﻿using Ciphers.Singletone;
-using Ciphers.Strategy;
+﻿using Ciphers.Core;
+using Ciphers.Singletone;
 
 namespace Ciphers.Command.commands
 {
