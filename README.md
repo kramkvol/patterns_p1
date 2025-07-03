@@ -4,7 +4,7 @@ This project implements several classical encryption algorithms (Playfair, Winst
 
 ---
 
-## 🧩 Design Patterns Used
+## Design Patterns Used
 
 ### 1. **Strategy Pattern**
 
