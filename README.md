@@ -1,10 +1,10 @@
-# Design Patterns and Architecture – Cipher Project
+# 🔐 Design Patterns and Architecture – Cipher Project
 
 This project implements several classical encryption algorithms (Playfair, Winston, Vigenère) using a modular and extensible architecture based on well-established software design patterns. Below is an overview of the patterns used, where they are applied, and why they are necessary.
 
 ---
 
-## Design Patterns Used
+## 🧩 Design Patterns Used
 
 ### 1. **Strategy Pattern**
 
@@ -49,26 +49,33 @@ This project implements several classical encryption algorithms (Playfair, Winst
 
 - **Where used:**  
   - `ICipherCommand` (interface)  
-  - `BaseCipherCommand`, `Encrypt*/Decrypt*Command` classes  
+  - `BaseCipherCommand`, `Encrypt*/Decrypt*Command`  
   - `RunCipher`, `CommandInvoker`
 
 - **Why it's necessary:**  
-  The Command pattern encapsulates a request (like “encrypt with Vigenère”) as an object. This enables:
-    - Delayed execution
-    - Uniform handling of both encryption and decryption
-    - Easy extension for new operations (e.g., benchmarking, export)
-  `RunCipher` determines the correct command and passes it to the `CommandInvoker`, which handles execution uniformly.
+  The Command pattern turns encryption and decryption actions into objects.  
+  This makes the code easier to manage and scale. Instead of handling logic in `if-else`, each command does one job:
+  - `EncryptPlayfairCommand` encrypts using Playfair  
+  - `DecryptWinstonCommand` decrypts using Winston  
+  etc.
+
+  `RunCipher` selects the correct command and passes it to `CommandInvoker`, which runs it.  
+  This makes the code cleaner, avoids duplication, and simplifies adding new actions.
 
 ---
 
 ### 5. **Singleton Pattern**
 
 - **Where used:**  
-  - `ConsoleLogger.Instance`
+  - `ConsoleLogger.Instance`  
+  - Also used in `UtilForText.ReadParameter` and `RunConsoleApp()`  
+  - `UILogger` (while not a singleton, it's used similarly as one instance per UI)
 
 - **Why it's necessary:**  
-  Logging is a global concern — only one logger should exist in console mode to avoid conflicts.  
-  `ConsoleLogger` implements the Singleton pattern to provide a consistent and centralized logging instance across components, especially inside decorators.
+  Logging is needed everywhere — in the console, UI, decorators, and utilities.  
+  `ConsoleLogger` uses the Singleton pattern to ensure only one instance exists, and it’s shared across the app.  
+  This avoids conflicting outputs and ensures consistent formatting.  
+  It’s used in both encryption logic and utility methods like `UtilForText.ReadParameter()`.
 
 ---
 
@@ -102,7 +109,7 @@ This project implements several classical encryption algorithms (Playfair, Winst
 
 ---
 
-## Summary Table
+## ✅ Summary Table
 
 | Pattern         | Role in the Project                                                | Example Classes/Files                                  |
 |----------------|---------------------------------------------------------------------|--------------------------------------------------------|
