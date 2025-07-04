@@ -19,6 +19,7 @@ namespace Ciphers.UI
         public CipherForm()
         {
             InitializeComponent();
+            UILogger.Initialize(this);
         }
 
         public void Log(string v)
@@ -36,10 +37,8 @@ namespace Ciphers.UI
             textBoxLog.Text = string.Empty;
             textBoxResults.Text = "";
 
-            var logger = new UILogger(this);
             string abc = "abcdefghijklmnopqrstuvwxyz";
             int rows = 5, cols = 5;
-
             try
             {
                 var createdCipher = CipherFactoryMethod.Create(
@@ -51,7 +50,7 @@ namespace Ciphers.UI
                     textBoxKey1.Text,
                     textBoxKey2.Text
                 );
-                RunCipher runCipher = new(createdCipher, logger, comboxMode.Text);
+                RunCipher runCipher = new(createdCipher, UILogger.Instance, comboxMode.Text);
                 runCipher.Execute();
             }
             catch (Exception ex)

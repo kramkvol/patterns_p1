@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{932B81FA-3AC0-446D-AD39-BAC5F6C6F2FD}|Ciphers.csproj|c:\\users\\\u043E\u043B\u044C\u0433\u0430\\desktop\\patterns\\cipherswithpatterns\\ui\\cipherform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{932B81FA-3AC0-446D-AD39-BAC5F6C6F2FD}|Ciphers.csproj|solutionrelative:ui\\cipherform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{932B81FA-3AC0-446D-AD39-BAC5F6C6F2FD}|Ciphers.csproj|c:\\users\\\u043E\u043B\u044C\u0433\u0430\\desktop\\patterns\\cipherswithpatterns\\ui\\cipherform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{932B81FA-3AC0-446D-AD39-BAC5F6C6F2FD}|Ciphers.csproj|solutionrelative:ui\\cipherform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{932B81FA-3AC0-446D-AD39-BAC5F6C6F2FD}|Ciphers.csproj|C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\ui\\cipherform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{932B81FA-3AC0-446D-AD39-BAC5F6C6F2FD}|Ciphers.csproj|solutionrelative:ui\\cipherform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{932B81FA-3AC0-446D-AD39-BAC5F6C6F2FD}|Ciphers.csproj|c:\\users\\\u043E\u043B\u044C\u0433\u0430\\desktop\\patterns\\cipherswithpatterns\\ui\\cipherform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{932B81FA-3AC0-446D-AD39-BAC5F6C6F2FD}|Ciphers.csproj|solutionrelative:ui\\cipherform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{932B81FA-3AC0-446D-AD39-BAC5F6C6F2FD}|Ciphers.csproj|c:\\users\\\u043E\u043B\u044C\u0433\u0430\\desktop\\patterns\\cipherswithpatterns\\singletone\\uilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{932B81FA-3AC0-446D-AD39-BAC5F6C6F2FD}|Ciphers.csproj|solutionrelative:singletone\\uilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{932B81FA-3AC0-446D-AD39-BAC5F6C6F2FD}|Ciphers.csproj|c:\\users\\\u043E\u043B\u044C\u0433\u0430\\desktop\\patterns\\cipherswithpatterns\\ui\\cipherform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{932B81FA-3AC0-446D-AD39-BAC5F6C6F2FD}|Ciphers.csproj|solutionrelative:ui\\cipherform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+      "AbsoluteMoniker": "D:0:0:{932B81FA-3AC0-446D-AD39-BAC5F6C6F2FD}|Ciphers.csproj|c:\\users\\\u043E\u043B\u044C\u0433\u0430\\desktop\\patterns\\cipherswithpatterns\\singletone\\consolelogger .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{932B81FA-3AC0-446D-AD39-BAC5F6C6F2FD}|Ciphers.csproj|solutionrelative:singletone\\consolelogger .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{932B81FA-3AC0-446D-AD39-BAC5F6C6F2FD}|Ciphers.csproj|c:\\users\\\u043E\u043B\u044C\u0433\u0430\\desktop\\patterns\\cipherswithpatterns\\singletone\\ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{932B81FA-3AC0-446D-AD39-BAC5F6C6F2FD}|Ciphers.csproj|solutionrelative:singletone\\ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{932B81FA-3AC0-446D-AD39-BAC5F6C6F2FD}|Ciphers.csproj|c:\\users\\\u043E\u043B\u044C\u0433\u0430\\desktop\\patterns\\cipherswithpatterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{932B81FA-3AC0-446D-AD39-BAC5F6C6F2FD}|Ciphers.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{932B81FA-3AC0-446D-AD39-BAC5F6C6F2FD}|Ciphers.csproj|c:\\users\\\u043E\u043B\u044C\u0433\u0430\\desktop\\patterns\\cipherswithpatterns\\ui\\cipherform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{932B81FA-3AC0-446D-AD39-BAC5F6C6F2FD}|Ciphers.csproj|solutionrelative:ui\\cipherform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{932B81FA-3AC0-446D-AD39-BAC5F6C6F2FD}|Ciphers.csproj|c:\\users\\\u043E\u043B\u044C\u0433\u0430\\desktop\\patterns\\cipherswithpatterns\\ui\\cipherform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{932B81FA-3AC0-446D-AD39-BAC5F6C6F2FD}|Ciphers.csproj|solutionrelative:ui\\cipherform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{932B81FA-3AC0-446D-AD39-BAC5F6C6F2FD}|Ciphers.csproj|c:\\users\\\u043E\u043B\u044C\u0433\u0430\\desktop\\patterns\\cipherswithpatterns\\strategy\\vigenerecipherstrategy .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -114,44 +126,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CipherForm.resx",
-              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\UI\\CipherForm.resx",
-              "RelativeDocumentMoniker": "UI\\CipherForm.resx",
-              "ToolTip": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\UI\\CipherForm.resx",
-              "RelativeToolTip": "UI\\CipherForm.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-07-03T10:24:30.607Z",
+              "DocumentIndex": 4,
+              "Title": "ILogger.cs",
+              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Singletone\\ILogger.cs",
+              "RelativeDocumentMoniker": "Singletone\\ILogger.cs",
+              "ToolTip": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Singletone\\ILogger.cs",
+              "RelativeToolTip": "Singletone\\ILogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T07:34:27.929Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WinstonCipherStrategy .cs",
-              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Strategy\\WinstonCipherStrategy .cs",
-              "RelativeDocumentMoniker": "Strategy\\WinstonCipherStrategy .cs",
-              "ToolTip": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Strategy\\WinstonCipherStrategy .cs",
-              "RelativeToolTip": "Strategy\\WinstonCipherStrategy .cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAwwDUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "UILogger.cs",
+              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Singletone\\UILogger.cs",
+              "RelativeDocumentMoniker": "Singletone\\UILogger.cs",
+              "ToolTip": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Singletone\\UILogger.cs",
+              "RelativeToolTip": "Singletone\\UILogger.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwB4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T10:03:36.712Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UtilForText.cs",
-              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Core\\UtilForText.cs",
-              "RelativeDocumentMoniker": "Core\\UtilForText.cs",
-              "ToolTip": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Core\\UtilForText.cs",
-              "RelativeToolTip": "Core\\UtilForText.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAADgv1AAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T15:19:10.672Z",
+              "WhenOpened": "2025-07-04T07:27:56.717Z",
               "EditorCaption": ""
             },
             {
@@ -168,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "BaseCipherDecorator.cs",
               "DocumentMoniker": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Decorator\\BaseCipherDecorator.cs",
               "RelativeDocumentMoniker": "Decorator\\BaseCipherDecorator.cs",
@@ -176,12 +176,11 @@
               "RelativeToolTip": "Decorator\\BaseCipherDecorator.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAADwvykAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T06:59:27.32Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T06:59:27.32Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "CipherForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\UI\\CipherForm.Designer.cs",
               "RelativeDocumentMoniker": "UI\\CipherForm.Designer.cs",
@@ -194,20 +193,82 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T15:08:47.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "CipherForm.cs",
               "DocumentMoniker": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\UI\\CipherForm.cs",
               "RelativeDocumentMoniker": "UI\\CipherForm.cs",
               "ToolTip": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\UI\\CipherForm.cs",
               "RelativeToolTip": "UI\\CipherForm.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAA4wD8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwCgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-03T09:49:20.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConsoleLogger .cs",
+              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Singletone\\ConsoleLogger .cs",
+              "RelativeDocumentMoniker": "Singletone\\ConsoleLogger .cs",
+              "ToolTip": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Singletone\\ConsoleLogger .cs",
+              "RelativeToolTip": "Singletone\\ConsoleLogger .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T07:34:22.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UtilForText.cs",
+              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Core\\UtilForText.cs",
+              "RelativeDocumentMoniker": "Core\\UtilForText.cs",
+              "ToolTip": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Core\\UtilForText.cs",
+              "RelativeToolTip": "Core\\UtilForText.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAADgv1AAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T15:19:10.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WinstonCipherStrategy .cs",
+              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Strategy\\WinstonCipherStrategy .cs",
+              "RelativeDocumentMoniker": "Strategy\\WinstonCipherStrategy .cs",
+              "ToolTip": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Strategy\\WinstonCipherStrategy .cs",
+              "RelativeToolTip": "Strategy\\WinstonCipherStrategy .cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAwwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T10:03:36.712Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "CipherForm.resx",
+              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\UI\\CipherForm.resx",
+              "RelativeDocumentMoniker": "UI\\CipherForm.resx",
+              "ToolTip": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\UI\\CipherForm.resx",
+              "RelativeToolTip": "UI\\CipherForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-07-03T10:24:30.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "VigenereCipherDecorator.cs",
               "DocumentMoniker": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Decorator\\VigenereCipherDecorator.cs",
               "RelativeDocumentMoniker": "Decorator\\VigenereCipherDecorator.cs",
@@ -215,25 +276,11 @@
               "RelativeToolTip": "Decorator\\VigenereCipherDecorator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T08:00:24.139Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T08:00:24.139Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAzwCIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T15:08:47.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "VigenereCipherStrategy .cs",
               "DocumentMoniker": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Strategy\\VigenereCipherStrategy .cs",
               "RelativeDocumentMoniker": "Strategy\\VigenereCipherStrategy .cs",
@@ -241,12 +288,11 @@
               "RelativeToolTip": "Strategy\\VigenereCipherStrategy .cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAwCcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T10:04:20.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-03T10:04:20.591Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "WinstonCipherDecorator.cs",
               "DocumentMoniker": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Decorator\\WinstonCipherDecorator.cs",
               "RelativeDocumentMoniker": "Decorator\\WinstonCipherDecorator.cs",
@@ -254,12 +300,11 @@
               "RelativeToolTip": "Decorator\\WinstonCipherDecorator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T08:00:26.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T08:00:26.845Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "EncryptWinstonCommand.cs",
               "DocumentMoniker": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Command\\commands\\EncryptWinstonCommand.cs",
               "RelativeDocumentMoniker": "Command\\commands\\EncryptWinstonCommand.cs",
@@ -267,12 +312,11 @@
               "RelativeToolTip": "Command\\commands\\EncryptWinstonCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T10:02:55.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-03T10:02:55.3Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "DecryptWinstonCommand.cs",
               "DocumentMoniker": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Command\\commands\\DecryptWinstonCommand.cs",
               "RelativeDocumentMoniker": "Command\\commands\\DecryptWinstonCommand.cs",
@@ -280,12 +324,11 @@
               "RelativeToolTip": "Command\\commands\\DecryptWinstonCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T15:11:49.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T15:11:49.584Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "BaseCipherStrategy.cs",
               "DocumentMoniker": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Strategy\\BaseCipherStrategy.cs",
               "RelativeDocumentMoniker": "Strategy\\BaseCipherStrategy.cs",
@@ -293,12 +336,11 @@
               "RelativeToolTip": "Strategy\\BaseCipherStrategy.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAA4wCsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T06:50:11.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T06:50:11.391Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "EncryptVigenereCommand.cs",
               "DocumentMoniker": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Command\\commands\\EncryptVigenereCommand.cs",
               "RelativeDocumentMoniker": "Command\\commands\\EncryptVigenereCommand.cs",
@@ -306,12 +348,11 @@
               "RelativeToolTip": "Command\\commands\\EncryptVigenereCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T15:11:47.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T15:11:47.848Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "EncryptPlayfairCommand.cs",
               "DocumentMoniker": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Command\\commands\\EncryptPlayfairCommand.cs",
               "RelativeDocumentMoniker": "Command\\commands\\EncryptPlayfairCommand.cs",
@@ -319,12 +360,11 @@
               "RelativeToolTip": "Command\\commands\\EncryptPlayfairCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T08:20:11.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T08:20:11.453Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "RunCipher.cs",
               "DocumentMoniker": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Command\\commands\\RunCipher.cs",
               "RelativeDocumentMoniker": "Command\\commands\\RunCipher.cs",
@@ -336,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "CipherFactoryMethod.cs",
               "DocumentMoniker": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\FactoryMethod\\CipherFactoryMethod.cs",
               "RelativeDocumentMoniker": "FactoryMethod\\CipherFactoryMethod.cs",
@@ -344,12 +384,11 @@
               "RelativeToolTip": "FactoryMethod\\CipherFactoryMethod.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAASwBQAAAB+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T08:01:30.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T08:01:30.512Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "UtilForTables.cs",
               "DocumentMoniker": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Core\\UtilForTables.cs",
               "RelativeDocumentMoniker": "Core\\UtilForTables.cs",
@@ -361,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "DecryptPlayfairCommand.cs",
               "DocumentMoniker": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Command\\commands\\DecryptPlayfairCommand.cs",
               "RelativeDocumentMoniker": "Command\\commands\\DecryptPlayfairCommand.cs",
@@ -373,7 +412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "CommandInvoker.cs",
               "DocumentMoniker": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Command\\CommandInvoker.cs",
               "RelativeDocumentMoniker": "Command\\CommandInvoker.cs",
@@ -385,7 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "BaseCipherCommand.cs",
               "DocumentMoniker": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Command\\commands\\BaseCipherCommand.cs",
               "RelativeDocumentMoniker": "Command\\commands\\BaseCipherCommand.cs",
@@ -397,7 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "PlayfairCipherDecorator.cs",
               "DocumentMoniker": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Decorator\\PlayfairCipherDecorator.cs",
               "RelativeDocumentMoniker": "Decorator\\PlayfairCipherDecorator.cs",
@@ -409,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "PlayfairCipherStrategy.cs",
               "DocumentMoniker": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Strategy\\PlayfairCipherStrategy.cs",
               "RelativeDocumentMoniker": "Strategy\\PlayfairCipherStrategy.cs",
@@ -421,7 +460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "UtilForDecorator.cs",
               "DocumentMoniker": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Core\\UtilForDecorator.cs",
               "RelativeDocumentMoniker": "Core\\UtilForDecorator.cs",
@@ -433,7 +472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "ICipherStrategy.cs",
               "DocumentMoniker": "C:\\Users\\\u041E\u043B\u044C\u0433\u0430\\Desktop\\Patterns\\CiphersWithPatterns\\Core\\ICipherStrategy.cs",
               "RelativeDocumentMoniker": "Core\\ICipherStrategy.cs",

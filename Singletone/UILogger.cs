@@ -1,15 +1,35 @@
 ﻿using Ciphers.UI;
+using System;
 
 namespace Ciphers.Singletone
 {
     public class UILogger : ILogger
     {
+        private static UILogger? instance;
+        public static UILogger Instance
+        {
+            get
+            {
+                if (instance == null)
+                    throw new InvalidOperationException("UILogger is not initialized. Call Initialize(form) first.");
+                return instance;
+            }
+        }
+
         private readonly CipherForm form;
-        public UILogger(CipherForm form)
+
+        private UILogger(CipherForm form)
         {
             this.form = form;
         }
 
+        public static void Initialize(CipherForm form)
+        {
+            if (instance == null)
+                instance = new UILogger(form);
+            else
+                throw new InvalidOperationException("UILogger is already initialized.");
+        }
         public void LogInfo(string message) => form.Log("[INFO] " + message);
         public void LogResult(string message) => form.ShowResult("[RESULT] " + message);
         public void LogError(string message) => form.Log("[ERROR] " + message);
