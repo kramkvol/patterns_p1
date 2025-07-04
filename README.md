@@ -2,16 +2,30 @@
 
 This project implements several classical encryption algorithms (Playfair, Winston, Vigenère) using a modular and extensible architecture based on well-established software design patterns. Below is an overview of the patterns used, where they are applied, and why they are necessary.
 
-1. [🔐 Design Patterns and Architecture – Cipher Project](#-design-patterns-and-architecture--cipher-project)
+1. [Design Patterns and Architecture – Cipher Project](#-design-patterns-and-architecture--cipher-project)
    - [1. Strategy Pattern](#1-strategy-pattern)
    - [2. Decorator Pattern](#2-decorator-pattern)
    - [3. Factory Method Pattern](#3-factory-method-pattern)
    - [4. Command Pattern](#4-command-pattern)
    - [5. Singleton Pattern](#5-singleton-pattern)
 
-2. [🏗 Core Architecture and Utility (Ciphers.Core)](#-core-architecture-and-utility-cipherscore)
+2. [Сore Architecture and Utility (Ciphers.Core)
 
-3. [🖥 User Interface and Execution Flow](#user-interface-and-execution-flow)
+1. [Design Patterns and Architecture – Cipher Project](#-design-patterns-and-architecture--cipher-project)
+   - [1. Strategy Pattern](#1-strategy-pattern)
+   - [2. Decorator Pattern](#2-decorator-pattern)
+   - [3. Factory Method Pattern](#3-factory-method-pattern)
+   - [4. Command Pattern](#4-command-pattern)
+   - [5. Singleton Pattern](#5-singleton-pattern)
+
+2. [Core Architecture and Utility (Ciphers.Core)](#-core-architecture-and-utility-cipherscore)
+
+3. [User Interface and Execution Flow](#user-interface-and-execution-flow)
+   - [Console Mode](#console-mode)
+   - [WinForms Mode](#winforms-mode)
+)
+
+3. [User Interface and Execution Flow](#user-interface-and-execution-flow)
    - [Console Mode](#console-mode)
    - [WinForms Mode](#winforms-mode)
 
