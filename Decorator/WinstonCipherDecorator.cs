@@ -40,5 +40,22 @@ namespace Ciphers.Decorator
                 }
             }
         }
+
+        public override void DebugDecryptCipher()
+        {
+            string str_bigram = inner.GetBigrams();
+            string str_result = inner.Decrypt();
+
+            for (int i = 0; i < str_bigram.Length; i += 2)
+            {
+                logger.LogDebug($"Bigram: {str_bigram[i]}, in Table1 {UtilForTables.FindPosition(inner.GetTable1(), str_bigram[i])} -> Result: {str_result[i]}, in Table1 - {UtilForTables.FindPosition(inner.GetTable1(), str_result[i])}");
+                logger.LogDebug($"Bigram: {str_bigram[i + 1]}, in Table2 {UtilForTables.FindPosition(inner.GetTable2(), str_bigram[i + 1])} -> Result: {str_result[i + 1]}, in Table2 - {UtilForTables.FindPosition(inner.GetTable2(), str_result[i + 1])}");
+
+                if (i < str_bigram.Length - 2)
+                {
+                    logger.LogDebug("");
+                }
+            }
+        }
     }
 }
