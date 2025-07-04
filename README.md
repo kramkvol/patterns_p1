@@ -9,15 +9,6 @@ This project implements several classical encryption algorithms (Playfair, Winst
    - [4. Command Pattern](#4-command-pattern)
    - [5. Singleton Pattern](#5-singleton-pattern)
 
-2. [Сore Architecture and Utility (Ciphers.Core)
-
-1. [Design Patterns and Architecture – Cipher Project](#-design-patterns-and-architecture--cipher-project)
-   - [1. Strategy Pattern](#1-strategy-pattern)
-   - [2. Decorator Pattern](#2-decorator-pattern)
-   - [3. Factory Method Pattern](#3-factory-method-pattern)
-   - [4. Command Pattern](#4-command-pattern)
-   - [5. Singleton Pattern](#5-singleton-pattern)
-
 2. [Core Architecture and Utility (Ciphers.Core)](#-core-architecture-and-utility-cipherscore)
 
 3. [User Interface and Execution Flow](#user-interface-and-execution-flow)
