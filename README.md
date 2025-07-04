@@ -2,7 +2,7 @@
 
 This project implements several classical encryption algorithms (Playfair, Winston, Vigenère) using a modular and extensible architecture based on well-established software design patterns. Below is an overview of the patterns used, where they are applied, and why they are necessary.
 
-1. [Design Patterns and Architecture – Cipher Project](#-design-patterns-and-architecture--cipher-project)
+1. [Design Patterns and Architecture – Cipher Project](#design-patterns-and-architecture--cipher-project)
    - [1. Strategy Pattern](#1-strategy-pattern)
    - [2. Decorator Pattern](#2-decorator-pattern)
    - [3. Factory Method Pattern](#3-factory-method-pattern)
