@@ -1,4 +1,4 @@
-# Design Patterns and Architecture – Cipher Project
+# 2025 july, pet project: Ciphers
 
 This project implements several classical encryption algorithms (Playfair, Winston, Vigenère) using a modular and extensible architecture based on well-established software design patterns (Strategy, Factory Method, Decorator, Singleton, Command). There are two modes: colsole and WinForms. 
 
